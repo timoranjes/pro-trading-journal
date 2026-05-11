@@ -16,11 +16,11 @@ Track every trade across US, HK, A-share, FX, and crypto markets. Auto-calculate
 
 📋 WHAT YOU GET
 
-**Trade Log** — 20 fields per trade: entry/exit, stop loss, take profit, position size, mistakes, notes, and screenshot links. P&L, R-Multiple, and Net P&L calculated automatically.
+**Trade Log** — 20 fields per trade: entry/exit, stop loss, take profit, position size, mistakes, notes, and screenshot links. P&L, P&L%, R-Multiple, and Net P&L calculated automatically across 50 trade slots.
 
-**Dashboard** — Real-time performance overview: win rate, profit factor, avg win/loss, best & worst trade, max drawdown. Performance breakdown by market (US/HK/A/FX/Crypto) and by strategy.
+**Dashboard** — Real-time performance overview: total trades, win rate, total P&L, avg hold days, avg win/loss, profit factor, and worst trade.
 
-**Analytics** — Cumulative P&L equity curve, win/loss distribution analysis, monthly performance tracking.
+**Analytics** — Cumulative P&L equity curve (10 trades), win/loss distribution, and monthly performance breakdown (Jan-Dec).
 
 **Setup Guide** — Get started in 2 minutes with step-by-step instructions.
 
@@ -32,9 +32,9 @@ Most trading journals are built by people who've never placed a trade. This one 
 
 • **R-Multiple tracking** — Measure trades in risk units, not just dollars. This is what separates pros from amateurs.
 • **Mistake column** — Because your biggest edge comes from eliminating behavioral errors.
-• **Strategy performance breakdown** — Know exactly which setups have the highest win rate and R-multiple.
+• **Monthly performance tracking** — See which months are your strongest and weakest.
 • **Multi-market support** — One journal for all your markets.
-• **50+ auto-calculating formulas** — Just enter the trade, let the spreadsheet do the math.
+• **250+ auto-calculating formulas** — Just enter the trade, let the spreadsheet do the math.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -76,8 +76,8 @@ Works with: Google Sheets (free), Microsoft Excel, Apple Numbers
 
 💰 PRICING
 
-List price: $29
-Launch special: $19 (first 50 buyers)
+Launch price: $19 (first 50 buyers)
+Standard price: $29
 
 One payment. Lifetime access. Free updates.
 
@@ -104,7 +104,7 @@ CALL TO ACTION:
 I want this!
 
 COVER IMAGE:
-Use thumbnail.png (1280x720) — dark navy + gold professional dashboard mockup
+Use thumbnail.png (1280x720) — dark navy + gold professional design
 
 FILES TO UPLOAD:
 1. Delivery_Instructions.pdf (the file buyers receive — contains the Google Sheets template link)
