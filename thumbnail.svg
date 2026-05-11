@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1B2A4A"/>
+    <stop offset="100%" style="stop-color:#15203A"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/></filter>
+</defs>
+
+<!-- Background -->
+<rect width="1280" height="720" fill="url(#bg)"/>
+
+<!-- Grid pattern -->
+<g opacity="0.1">
+  <line x1="0" y1="80" x2="1280" y2="80" stroke="#FFFFFF" stroke-width="0.5"/>
+  <line x1="0" y1="400" x2="1280" y2="400" stroke="#FFFFFF" stroke-width="0.5"/>
+</g>
+
+<!-- Header -->
+<rect x="0" y="0" width="1280" height="80" fill="#0F1729"/>
+<text x="40" y="52" fill="#D4A843" font-family="Arial,sans-serif" font-size="32" font-weight="bold">PRO TRADING JOURNAL</text>
+<text x="480" y="50" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" opacity="0.6">Built by a Hedge Fund Trader</text>
+
+<!-- Left Panel: Dashboard -->
+<rect x="40" y="110" width="580" height="270" rx="12" fill="#2C3E6B" filter="url(#shadow)"/>
+<text x="65" y="148" fill="#D4A843" font-family="Arial,sans-serif" font-size="18" font-weight="bold">DASHBOARD</text>
+
+<!-- Metric boxes -->
+<g>
+  <rect x="65" y="170" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="80" y="198" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Win Rate</text>
+  <text x="80" y="230" fill="#27AE60" font-family="Arial,sans-serif" font-size="24" font-weight="bold">67.3%</text>
+
+  <rect x="210" y="170" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="225" y="198" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Net P&amp;L</text>
+  <text x="225" y="230" fill="#27AE60" font-family="Arial,sans-serif" font-size="24" font-weight="bold">+$12.4K</text>
+
+  <rect x="355" y="170" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="370" y="198" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Profit Factor</text>
+  <text x="370" y="230" fill="#D4A843" font-family="Arial,sans-serif" font-size="24" font-weight="bold">2.34</text>
+
+  <rect x="500" y="170" width="100" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="515" y="198" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Avg R</text>
+  <text x="515" y="230" fill="#3498DB" font-family="Arial,sans-serif" font-size="24" font-weight="bold">1.82</text>
+</g>
+
+<!-- Second row metrics -->
+<g>
+  <rect x="65" y="265" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="80" y="293" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Total Trades</text>
+  <text x="80" y="325" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="24" font-weight="bold">147</text>
+
+  <rect x="210" y="265" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="225" y="293" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Best Trade</text>
+  <text x="225" y="325" fill="#27AE60" font-family="Arial,sans-serif" font-size="24" font-weight="bold">+$2,340</text>
+
+  <rect x="355" y="265" width="125" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="370" y="293" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Worst Trade</text>
+  <text x="370" y="325" fill="#E74C3C" font-family="Arial,sans-serif" font-size="24" font-weight="bold">-$890</text>
+
+  <rect x="500" y="265" width="100" height="80" rx="8" fill="#1B2A4A"/>
+  <text x="515" y="293" fill="#8899AA" font-family="Arial,sans-serif" font-size="12">Max DD</text>
+  <text x="515" y="325" fill="#E74C3C" font-family="Arial,sans-serif" font-size="24" font-weight="bold">-$1,200</text>
+</g>
+
+<!-- Right Panel: Trade Log -->
+<rect x="660" y="110" width="580" height="580" rx="12" fill="#2C3E6B" filter="url(#shadow)"/>
+<text x="685" y="148" fill="#D4A843" font-family="Arial,sans-serif" font-size="18" font-weight="bold">TRADE LOG</text>
+
+<!-- Table headers -->
+<g fill="#FFFFFF" font-family="Arial,sans-serif" font-size="13" font-weight="bold">
+  <text x="685" y="180">#</text>
+  <text x="720" y="180">Date</text>
+  <text x="780" y="180">Symbol</text>
+  <text x="870" y="180">Dir</text>
+  <text x="920" y="180">Entry</text>
+  <text x="1010" y="180">Exit</text>
+  <text x="1090" y="180">P&amp;L</text>
+  <text x="1170" y="180">R</text>
+</g>
+<line x1="685" y1="190" x2="1210" y2="190" stroke="#D4A843" stroke-width="1.5"/>
+
+<!-- Trade rows -->
+<g font-family="Arial,sans-serif" font-size="14">
+  <text x="685" y="220" fill="#FFFFFF">1</text>
+  <text x="720" y="220" fill="#AAAAAA">05/05</text>
+  <text x="780" y="220" fill="#FFFFFF">NVDA</text>
+  <text x="870" y="220" fill="#3498DB">Long</text>
+  <text x="920" y="220" fill="#AAAAAA">128.50</text>
+  <text x="1010" y="220" fill="#AAAAAA">136.20</text>
+  <text x="1090" y="220" fill="#27AE60" font-weight="bold">+$770</text>
+  <text x="1170" y="220" fill="#FFFFFF">2.20</text>
+
+  <text x="685" y="260" fill="#FFFFFF">2</text>
+  <text x="720" y="260" fill="#AAAAAA">05/06</text>
+  <text x="780" y="260" fill="#FFFFFF">0700.HK</text>
+  <text x="870" y="260" fill="#3498DB">Long</text>
+  <text x="920" y="260" fill="#AAAAAA">512.00</text>
+  <text x="1010" y="260" fill="#AAAAAA">508.00</text>
+  <text x="1090" y="260" fill="#E74C3C" font-weight="bold">-$800</text>
+  <text x="1170" y="260" fill="#FFFFFF">-0.57</text>
+
+  <text x="685" y="300" fill="#FFFFFF">3</text>
+  <text x="720" y="300" fill="#AAAAAA">05/07</text>
+  <text x="780" y="300" fill="#FFFFFF">TSLA</text>
+  <text x="870" y="300" fill="#E74C3C">Short</text>
+  <text x="920" y="300" fill="#AAAAAA">312.00</text>
+  <text x="1010" y="300" fill="#AAAAAA">298.50</text>
+  <text x="1090" y="300" fill="#27AE60" font-weight="bold">+$675</text>
+  <text x="1170" y="300" fill="#FFFFFF">2.25</text>
+
+  <text x="685" y="340" fill="#FFFFFF">4</text>
+  <text x="720" y="340" fill="#AAAAAA">05/08</text>
+  <text x="780" y="340" fill="#FFFFFF">XAUUSD</text>
+  <text x="870" y="340" fill="#3498DB">Long</text>
+  <text x="920" y="340" fill="#AAAAAA">3280</text>
+  <text x="1010" y="340" fill="#AAAAAA">3310</text>
+  <text x="1090" y="340" fill="#27AE60" font-weight="bold">+$30</text>
+  <text x="1170" y="340" fill="#FFFFFF">1.50</text>
+</g>
+
+<!-- Bottom Left Panel: Analytics -->
+<rect x="40" y="420" width="580" height="270" rx="12" fill="#2C3E6B" filter="url(#shadow)"/>
+<text x="65" y="458" fill="#D4A843" font-family="Arial,sans-serif" font-size="18" font-weight="bold">ANALYTICS — Performance by Market</text>
+
+<!-- Bar charts -->
+<g font-family="Arial,sans-serif">
+  <text x="80" y="500" fill="#FFFFFF" font-size="14">US Stocks</text>
+  <rect x="200" y="485" width="350" height="22" rx="4" fill="#1B2A4A"/>
+  <rect x="200" y="485" width="158" height="22" rx="4" fill="#27AE60"/>
+  <text x="365" y="501" fill="#FFFFFF" font-size="12">45% • +$8,200</text>
+
+  <text x="80" y="535" fill="#FFFFFF" font-size="14">HK Stocks</text>
+  <rect x="200" y="520" width="350" height="22" rx="4" fill="#1B2A4A"/>
+  <rect x="200" y="520" width="88" height="22" rx="4" fill="#3498DB"/>
+  <text x="295" y="536" fill="#FFFFFF" font-size="12">25% • +$2,100</text>
+
+  <text x="80" y="570" fill="#FFFFFF" font-size="14">A-Shares</text>
+  <rect x="200" y="555" width="350" height="22" rx="4" fill="#1B2A4A"/>
+  <rect x="200" y="555" width="53" height="22" rx="4" fill="#F39C12"/>
+  <text x="260" y="571" fill="#FFFFFF" font-size="12">15% • +$1,350</text>
+
+  <text x="80" y="605" fill="#FFFFFF" font-size="14">FX/Gold</text>
+  <rect x="200" y="590" width="350" height="22" rx="4" fill="#1B2A4A"/>
+  <rect x="200" y="590" width="35" height="22" rx="4" fill="#E74C3C"/>
+  <text x="242" y="606" fill="#FFFFFF" font-size="12">10% • +$650</text>
+
+  <text x="80" y="640" fill="#FFFFFF" font-size="14">Crypto</text>
+  <rect x="200" y="625" width="350" height="22" rx="4" fill="#1B2A4A"/>
+  <rect x="200" y="625" width="18" height="22" rx="4" fill="#9B59B6"/>
+  <text x="225" y="641" fill="#FFFFFF" font-size="12">5% • +$150</text>
+</g>
+
+<!-- Equity curve -->
+<polyline points="80,670 120,660 160,665 200,650 240,640 280,620 320,625 360,600 400,590 440,570 480,580 520,560 560,540" fill="none" stroke="#D4A843" stroke-width="3"/>
+<polygon points="80,670 120,660 160,665 200,650 240,640 280,620 320,625 360,600 400,590 440,570 480,580 520,560 560,540 560,670 80,670" fill="#D4A843" opacity="0.08"/>
+</svg>
