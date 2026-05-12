@@ -1,0 +1,46 @@
+{
+  "approvals": [
+    {
+      "approved_at": "2026-05-05T07:19:09Z",
+      "command": "~/.hermes/scripts/hooks/pre_tool_call.sh",
+      "event": "pre_tool_call",
+      "script_mtime_at_approval": "2026-05-05T07:15:44Z"
+    },
+    {
+      "approved_at": "2026-05-05T07:19:09Z",
+      "command": "~/.hermes/scripts/hooks/post_api_request.sh",
+      "event": "post_api_request",
+      "script_mtime_at_approval": "2026-05-05T07:15:45Z"
+    },
+    {
+      "approved_at": "2026-05-05T07:46:36.452103+00:00",
+      "command": "~/.hermes/scripts/hooks/subagent_stop.py",
+      "event": "subagent_stop",
+      "script_mtime_at_approval": "2026-05-05T07:46:36.452103+00:00"
+    },
+    {
+      "approved_at": "2026-05-05T07:46:36.452103+00:00",
+      "command": "~/.hermes/scripts/hooks/on_session_end.py",
+      "event": "on_session_end",
+      "script_mtime_at_approval": "2026-05-05T07:46:36.452103+00:00"
+    },
+    {
+      "approved_at": "2026-05-11T02:06:47.091262Z",
+      "command": "~/.hermes/scripts/hooks/research_persistence_gate.py",
+      "event": "on_session_end",
+      "script_mtime_at_approval": null
+    },
+    {
+      "approved_at": "2026-05-11T15:01:59.853308Z",
+      "command": "~/.hermes/scripts/hooks/compliance_audit.py",
+      "event": "on_session_end",
+      "script_mtime_at_approval": "2026-05-11T11:39:56.767329Z"
+    },
+    {
+      "approved_at": "2026-05-11T15:01:59.854348Z",
+      "command": "~/.hermes/scripts/hooks/thread-context-loader.py",
+      "event": "pre_llm_call",
+      "script_mtime_at_approval": "2026-05-11T14:47:21.790252Z"
+    }
+  ]
+}

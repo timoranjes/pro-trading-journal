@@ -1,0 +1,60 @@
+# Sensitive
+.env
+*.lock
+auth.json
+google_client_secret.json
+google_token.json
+channel_directory.json
+discord_threads.json
+portfolio_state.json
+processes.json
+gateway_state.json
+models_dev_cache.json
+ollama_cloud_models_cache.json
+
+# Runtime/State
+state.db*
+gateway.pid
+gateway/
+sessions/
+cache/
+browser_screenshots/
+image_cache/
+checkpoints/
+state-snapshots/
+hindsight/
+migration/
+kanban.db
+
+# Logs/Output
+logs/
+cron/output/
+cron/.tick.lock
+disk-cleanup/
+.hermes_history
+.restart_last_processed.json
+
+# Backups
+*.bak*
+
+# Python
+__pycache__/
+*.pyc
+
+# Build helpers
+scripts/build_*.py
+scripts/capture-product-images.py
+
+# Memory lock files
+memories/*.lock
+
+# Large/generated
+archive/
+projects/
+whatsapp/
+bin/
+hermes-agent/
+skills/
+hwmr/
+life-study-reader/
+data/

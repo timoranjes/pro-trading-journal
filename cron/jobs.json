@@ -1,0 +1,1964 @@
+{
+  "jobs": [
+    {
+      "id": "a602284de111",
+      "name": "AI Discovery Daily Digest",
+      "prompt": "You are the AI Discovery Digest editor for Orange, a hedge fund trader focused on AI/semiconductors. Your job is to produce a comprehensive, well-structured daily digest that covers everything he needs to know about AI development and trends.\n\n## Input Data\n\nAbove is the raw data from `ai_discovery_digest.py` \u2014 a JSON data collector. It contains:\n- `rss_articles`: Recent articles from RSS feeds\n- `github_trending`: AI/ML filtered GitHub trending repos\n- `project_releases`: Latest releases from watched projects (Hermes Agent, etc.)\n- `web_*`: Web search results (may be empty if Exa API key expired)\n\n## Your Task\n\nResearch the current state of AI (May 2026) and produce a polished digest. Use `web_search` to fill any gaps in the raw data. The raw data is a starting point \u2014 NOT the final content.\n\n## Required Structure\n\n```\n# \ud83e\udd16 AI Discovery Digest \u2014 {date}\n\n## \ud83d\udd25 Top Story\nThe single most important AI development today. Include: what happened, why it matters, links.\n\n## \ud83e\udde0 Model Releases & Benchmarks\nNew model releases, benchmark results, capability advances. Format as a table:\n| Model | Lab | Date | Key Specs | Why It Matters |\nUse web_search to find the latest releases from OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, etc.\n\n## \ud83e\udd16 Agent Frameworks & Coding Tools\nAgent orchestration, coding agents, developer tools. List top 3-5 with brief descriptions.\n\n## \u26a1 Infrastructure & Compute\nGPU/TPU developments, training systems, inference optimization, data center news.\n\n## \ud83d\udd2c Research Breakthroughs\nNotable papers, architecture innovations, technique advances. Include arXiv links where available.\n\n## \ud83c\udf10 Industry & Policy\nFunding rounds, acquisitions, regulations, major partnerships. Focus on what moves markets.\n\n## \ud83d\udcc8 GitHub Trending (AI/ML)\nTop 3-5 trending AI/ML repos from the data + web research. Include stars and brief descriptions.\n\n## \ud83d\udd2e What to Watch This Week\nUpcoming releases, events, deadlines, product launches.\n\n---\n*Data: RSS feeds + GitHub Trending + Web Search | Generated {time}*\n```\n\n## Quality Rules\n\n1. **SOTA focus**: Prioritize cutting-edge developments over incremental updates\n2. **Actionable**: Every item should answer \"why should a hedge fund trader care?\"\n3. **Sources**: Include links to primary sources (blogs, papers, GitHub, press releases)\n4. **No fluff**: Skip routine updates, minor bug fixes, generic AI news\n5. **Current**: Focus on developments from the last 24-48 hours\n6. **Tables > lists**: Use tables for model releases and comparisons\n7. **Concise**: Each section should be scannable in <30 seconds\n\n## Research Strategy\n\n1. First, analyze the raw JSON data for any high-signal items\n2. Run `web_search` for each section to find current developments:\n   - \"AI model releases May 2026\"\n   - \"AI agent framework May 2026\"\n   - \"AI infrastructure GPU compute May 2026\"\n   - \"AI research breakthrough May 2026\"\n   - \"AI funding regulation May 2026\"\n3. Extract content from top sources using `web_extract`\n4. Synthesize into the structured digest format above\n5. Deliver the final markdown as your response",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "ai_discovery_digest.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "7 20 * * *",
+        "display": "7 20 * * *"
+      },
+      "schedule_display": "7 20 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 18
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-29T22:52:52.072469+08:00",
+      "next_run_at": "2026-05-12T20:07:00+08:00",
+      "last_run_at": "2026-05-11T20:13:32.241515+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#ai-discoveries",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499057783016788089",
+        "chat_name": "Orange's Workspace / #ai-discoveries / Hermes",
+        "thread_id": "1499057783016788089"
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal",
+        "file"
+      ],
+      "workdir": null,
+      "no_agent": false
+    },
+    {
+      "id": "7ec9901fecca",
+      "name": "CICC Market Flows Daily",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "base_url": null,
+      "script": "cicc_market_flows.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 16-22 * * 1-5",
+        "display": "*/15 16-22 * * 1-5"
+      },
+      "schedule_display": "*/15 16-22 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 213
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-29T23:17:06.743034+08:00",
+      "next_run_at": "2026-05-12T16:00:00+08:00",
+      "last_run_at": "2026-05-11T22:45:41.409503+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499063296894959876",
+        "chat_name": "Orange's Workspace / #fund-work / I need to capture the daily market flows for A shares and HK market sent from...",
+        "thread_id": "1499063296894959876"
+      },
+      "enabled_toolsets": null,
+      "workdir": "/Users/zichengliao/.hermes/scripts",
+      "no_agent": true
+    },
+    {
+      "id": "4bc7d878b16b",
+      "name": "daily-market-summary",
+      "prompt": "[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user \u2014 do NOT use send_message or try to deliver the output yourself. Just produce your report/output as your final response and the system handles the rest. SILENT: If there is genuinely nothing new to report, respond with exactly \"[SILENT]\" (nothing else) to suppress delivery. Never combine [SILENT] with content \u2014 either report your findings normally, or say [SILENT] and nothing more.]\n\nGenerate a pre-market morning brief for a hedge fund trader in HK. This covers the **overnight gap** between US close and HK open.\n\n**MANDATORY: All output must be in Simplified Chinese (\u7b80\u4f53\u4e2d\u6587). Output format: markdown.**\n\n## Coverage (in order):\n\n### 1. \ud83c\udf19 \u9694\u591c\u7f8e\u80a1\u56de\u987e (22:00-08:00 HKT)\n- US market close summary (S&P 500, Nasdaq, Dow) \u2014 only if notable moves (>1%)\n- Key individual stock moves **ONLY from the Portfolio Holdings list below** \u2014 NEVER mention stocks not in the holdings list\n- US after-hours activity (earnings, guidance, M&A) \u2014 **critical: this replaces the disabled after-hours monitor**\n- US pre-market activity (16:00-21:30 HKT) if applicable\n\n### 2. \ud83d\udcf0 \u9694\u591c\u65b0\u95fb\u6458\u8981\n- Material news affecting portfolio holdings (earnings, M&A, regulatory, geopolitical)\n- Macro data releases (CPI, NFP, FOMC) \u2014 only if relevant\n- Sector-specific news affecting portfolio positions\n\n### 3. \ud83c\udded\ud83c\uddf0 \u4eca\u65e5\u6e2f\u80a1/A\u80a1\u5c55\u671b\n- HK/A-share catalysts for the day ahead\n- Key events to watch\n- Sector outlook\n\n### 4. \ud83d\udca1 \u884c\u52a8\u5efa\u8bae\n- Specific actions: \"\u5173\u6ce8MU\u5b63\u5ea6\u62a5\u8868\"\u3001\"\u8003\u8651\u51cf\u4ed3XX\"\u3001\"\u6682\u65e0\u7279\u6b8a\u884c\u52a8\"\n\n## Portfolio Holdings Reference (EXHAUSTIVE \u2014 ONLY these stocks):\n- **\u534a\u5bfc\u4f53/\u5b58\u50a8**: MU.O (\u7f8e\u5149), SNDK.O (\u95ea\u8fea)\n- **\u5149\u901a\u4fe1/\u5149\u6a21\u5757**: LITE.O, 300308.SZ, 300502.SZ\n- **PCB/\u8986\u94dc\u677f**: 002384.SZ, 1888.HK, 300476.SZ, 3200.HK, 600183.SH, 688700.SH\n- **AI/\u7b97\u529b/\u4e91**: 2513.HK, 601138.SH, 7709.HK\n- **\u5149\u7ea4\u5149\u7f06**: 6869.HK\n- **\u65b0\u80fd\u6e90/\u7535\u6c60**: 300438.SZ, 300750.SZ\n- **\u9ec4\u91d1/\u8d35\u91d1\u5c5e**: 2259.HK\n- **\u5de5\u4e1a/\u5236\u9020**: 002353.SZ, 600482.SH, 603268.SH, 688808.SH\n- **\u5c04\u9891/\u5929\u7ebf**: 300136.SZ\n- **\u7535\u529b\u8bbe\u5907**: 002028.SZ\n- **\u6750\u6599**: 3858.HK, 600176.SH\n\n## HARD RULES (must follow):\n\n1. **Portfolio-only stocks**: ONLY discuss stocks listed in the Holdings Reference above. NEVER mention INTC, AMD, AAPL, NVDA, TSM, or any other stock not in the list \u2014 even if they appear in search results. This is a hard constraint.\n\n2. **Publication date for every news item**: Each news/earnings/item MUST include its publication timestamp (\ud83d\udd50 \u53d1\u5e03\u65f6\u95f4: YYYY-MM-DD). If you cannot find the publication date, DO NOT include that item. This prevents stale data from appearing as fresh news.\n\n3. **Freshness filter**: Only include news published within the last 7 days (since 2026-05-04). Older items are stale and must be excluded. Earnings data: only the most recent quarter report.\n\n4. **Verify earnings dates**: When citing earnings results, verify the actual report date. Do NOT confuse fiscal year naming (e.g., \"Q3 FY2025\" released in 2025) with current calendar dates. Check the actual publication date.\n\n5. **Quiet-day rule**: If NO material events related to portfolio holdings, output \"[SILENT]\" and stop. Only generate full brief when there is material information.\n\n6. **Source URLs**: Include source links for verification where available.\n\n7. **Concise**: Total output under 800 words.\n\n8. **Impact-focused**: Every news item must include 1-2 sentence impact analysis on portfolio.\n\n9. **Time**: Use HKT (UTC+8).\n\n## Response",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 8 * * 1-5",
+        "display": "2 8 * * 1-5"
+      },
+      "schedule_display": "2 8 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 12
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-30T20:26:20.765043+08:00",
+      "next_run_at": "2026-05-13T08:02:00+08:00",
+      "last_run_at": "2026-05-12T08:10:13.444749+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#market-brief",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499381441736347801",
+        "chat_name": "Orange's Workspace / #research / Hermes",
+        "thread_id": "1499381441736347801"
+      },
+      "enabled_toolsets": [
+        "web",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "3c7ec23e4884",
+      "name": "market-open-alert",
+      "prompt": "[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user \u2014 do NOT use send_message or try to deliver the output yourself. Just produce your report/output as your final response and the system handles the rest. SILENT: If there is genuinely nothing new to report, respond with exactly \"[SILENT]\" (nothing else) to suppress delivery. Never combine [SILENT] with content \u2014 either report your findings normally, or say [SILENT] and nothing more.]\n\nGenerate a market open alert for the US stock market.\n\n**MANDATORY: All output must be in Simplified Chinese (\u7b80\u4f53\u4e2d\u6587).**\n\n## Data Collection\n\nUse web search to collect:\n\n1. **Pre-market Futures** (search: \"US stock futures today pre-market\")\n   - S&P 500 futures, Nasdaq 100 futures, Dow futures\n   - Current levels and % change\n\n2. **Overnight Asia/Europe** (search: \"Asia markets today\", \"Europe markets today\")\n   - Nikkei, Hang Seng, Shanghai close\n   - DAX, FTSE, CAC current status\n\n3. **Key Economic Events Today** (search: \"economic calendar today US\")\n   - FOMC meetings, CPI/PCE dates, jobs data\n   - Earnings announcements\n\n4. **Major News Headlines** (search: \"market news today US stocks\")\n   - Top 5 market-moving stories\n\n5. **Key Levels to Watch**\n   - S&P 500 support/resistance\n   - VIX level\n\n## Output Format\n\nGenerate a concise alert in **Simplified Chinese (\u7b80\u4f53\u4e2d\u6587)**:\n\n```\n\ud83c\uddfa\ud83c\uddf8 \u7f8e\u80a1\u5f00\u76d8\u63d0\u9192 - [DATE]\n\n\ud83d\udcc8 \u671f\u8d27\u8868\u73b0\n\u2022 S&P \u671f\u8d27: [value] ([% change])\n\u2022 \u7eb3\u6307\u671f\u8d27: [value] ([% change])\n\u2022 \u9053\u6307\u671f\u8d27: [value] ([% change])\n\n\ud83c\udf0f \u9694\u591c\u5e02\u573a\n\u2022 \u65e5\u7ecf225: [value] ([% change])\n\u2022 \u6052\u751f: [value] ([% change])\n\u2022 DAX: [value] ([% change])\n\n\ud83d\udcca \u4eca\u65e5\u5173\u6ce8\n\u2022 [Economic events if any]\n\u2022 [Key earnings if any]\n\n\ud83d\udcf0 \u91cd\u5927\u65b0\u95fb\n1. [News 1]\n2. [News 2]\n3. [News 3]\n\n\u26a0\ufe0f \u5173\u952e\u4f4d\n\u2022 S&P\u652f\u6491: [level] | \u963b\u529b: [level]\n\u2022 VIX: [value]\n\n---\n*\u8ddd\u5f00\u76d8\u7ea6{COUNTDOWN}*\n```\n\nKeep it concise and actionable. Focus on what will impact the trading day.\n\n**IMPORTANT:** Use the countdown value provided in the script context above (it accounts for US DST). Replace `{COUNTDOWN}` with that exact value. Do NOT calculate it yourself.\n\n**Do NOT run webhook_send.py or any other delivery command \u2014 the cron system handles delivery to #market-brief automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "market_open_countdown.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 20 * * 1-5",
+        "display": "2 20 * * 1-5"
+      },
+      "schedule_display": "2 20 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 9
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-30T20:26:32.648400+08:00",
+      "next_run_at": "2026-05-12T20:02:00+08:00",
+      "last_run_at": "2026-05-11T20:12:10.761009+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#market-brief",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499381441736347801",
+        "chat_name": "Orange's Workspace / #research / Hermes",
+        "thread_id": "1499381441736347801"
+      },
+      "enabled_toolsets": [
+        "web",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "edc9e99c9d10",
+      "name": "Hermes Weekly Self-Maintenance",
+      "prompt": "## Weekly Hermes Self-Maintenance\n\nRun a comprehensive maintenance check and report findings. **Do NOT make any changes without explicit user approval - this is a read-only audit.**\n\n### Checks to Perform:\n\n1. **Cron Job Health**\n   - List all cron jobs and check for any with repeated failures\n   - Run: `cronjob action='list'` to see all jobs\n   - Identify jobs with `last_status: \"error\"` or frequent `last_delivery_error`\n\n2. **Disk Space**\n   ```bash\n   df -h ~\n   du -sh ~/.hermes/*\n   du -sh ~/.hermes/cron/output/*\n   ```\n   - Check if any directories are growing too large\n\n3. **Log Files**\n   ```bash\n   ls -la ~/.hermes/logs/\n   tail -50 ~/.hermes/logs/hermes.log\n   ```\n   - Look for any recurring errors or warnings\n\n4. **Data Files**\n   ```bash\n   ls -la ~/.hermes/data/\n   ```\n   - Check for stale or outdated data files\n\n5. **Script Health**\n   ```bash\n   ls -la ~/.hermes/scripts/\n   ```\n   - Verify all expected scripts are present\n\n6. **Output Cleanup Check**\n   - Check ~/.hermes/cron/output/ for old files that may need cleanup\n\n### Output Format\n\nGenerate a report in this format:\n\n```\n\ud83d\udd27 Hermes\u5468\u5ea6\u7ef4\u62a4\u62a5\u544a - [DATE]\n\n\ud83d\udcca Cron\u4f5c\u4e1a\u72b6\u6001\n\u2022 \u603b\u4f5c\u4e1a\u6570: [X]\n\u2022 \u6b63\u5e38\u8fd0\u884c: [X]\n\u2022 \u9700\u8981\u5173\u6ce8: [X]\n[\u5217\u51fa\u4efb\u4f55\u6709\u95ee\u9898\u7684\u4f5c\u4e1a]\n\n\ud83d\udcbe \u78c1\u76d8\u7a7a\u95f4\n\u2022 \u4e3b\u76ee\u5f55: [X% used]\n\u2022 \u6700\u5927\u76ee\u5f55: [name - X MB]\n\n\ud83d\udcdd \u65e5\u5fd7\u6458\u8981\n\u2022 \u6700\u8fd1\u9519\u8bef: [X]\n\u2022 \u4e3b\u8981\u95ee\u9898: [\u5982\u6709]\n\n\ud83d\udcc1 \u6570\u636e\u6587\u4ef6\n\u2022 \u72b6\u6001: [\u6b63\u5e38/\u9700\u8981\u66f4\u65b0]\n\u2022 \u53d1\u73b0\u95ee\u9898: [\u5982\u6709]\n\n\u2705 \u5efa\u8bae\u64cd\u4f5c\n[\u5217\u51fa\u4efb\u4f55\u9700\u8981\u7528\u6237\u6279\u51c6\u7684\u64cd\u4f5c]\n\n---\n*\u62a5\u544a\u751f\u6210\u65f6\u95f4: [TIME]*\n```\n\n**IMPORTANT: This is a read-only audit. Do NOT run webhook_send.py or any other delivery command \u2014 the cron system handles delivery automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "qwen3.6-plus",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "7 20 * * 0",
+        "display": "7 20 * * 0"
+      },
+      "schedule_display": "7 20 * * 0",
+      "repeat": {
+        "times": 999,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-30T21:15:38.756416+08:00",
+      "next_run_at": "2026-05-17T20:07:00+08:00",
+      "last_run_at": "2026-05-10T20:12:23.621361+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499394910611177563",
+        "chat_name": "Orange's Workspace / #research / Hermes Agent Intent Understanding Improvements",
+        "thread_id": "1499394910611177563"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "cronjob",
+        "messaging"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "538ee4f63747",
+      "name": "Life OS Health Check",
+      "prompt": "Run the weekly Life OS Health Check - a full system self-audit.\n\nSteps:\n1. Run the script: `cd ~/.hermes && python3 scripts/life_os_health_check.py`\n2. The script checks all Life OS components\n3. Review the output and format for Discord delivery\n\nAfter running the script, take its output and deliver it to Discord channel #personal-reminders.\n\nIf the script fails, report what you attempted and any error messages.\n\n**Do NOT run webhook_send.py \u2014 the cron system handles delivery automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 0 * * 0",
+        "display": "30 0 * * 0"
+      },
+      "schedule_display": "30 0 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T00:41:59.993514+08:00",
+      "next_run_at": "2026-05-17T00:30:00+08:00",
+      "last_run_at": "2026-05-10T00:36:37.060416+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: Provider returned error",
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499437776561766581",
+        "chat_name": "Orange's Workspace / #research / research what you can do at midnight proactively for self-improvement while I...",
+        "thread_id": "1499437776561766581"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "d3837bf4e5c3",
+      "name": "trading-holiday-reminder",
+      "prompt": "Run the trading holiday reminder script:\n\n```bash\ncd ~/.hermes && python3 scripts/trading_holiday_reminder.py\n```\n\nThe script:\n1. Fetches holiday data from nager.at API (accurate, English names internally)\n2. Translates all output to Simplified Chinese (\u7b80\u4f53\u4e2d\u6587)\n3. Checks A-share, HK, US, and Korea (only if 7709.HK is in portfolio)\n4. Calculates actual next trading dates (skips weekends + holidays)\n5. Sends to Discord channel 1499014364504526859 (#market-brief) directly\n6. Auto-disables this cron job if no Korean positions remain\n\nJust run the script and relay its output to Discord. Do NOT generate holiday data yourself \u2014 always use the script's API data. All output must be in Simplified Chinese.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "trading_holiday_reminder.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 8 * * *",
+        "display": "15 8 * * *"
+      },
+      "schedule_display": "15 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 13
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T00:52:42.911017+08:00",
+      "next_run_at": "2026-05-13T08:15:00+08:00",
+      "last_run_at": "2026-05-12T08:19:22.904356+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499427983583219903",
+        "chat_name": "Orange's Workspace / #portfolio-alerts / Is industry news included in the portfolio alert system?",
+        "thread_id": "1499427983583219903"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "cronjob"
+      ],
+      "workdir": null,
+      "no_agent": true
+    },
+    {
+      "id": "880e02cddf35",
+      "name": "Daily Calendar Reminder",
+      "prompt": "Run the daily calendar reminder script and deliver to Discord.\n\nCommand: `cd ~/.hermes && python3 scripts/daily_calendar_reminder.py`\n\nThe script will:\n1. Read calendar events from ~/.hermes/data/calendar.json\n2. Identify today's events\n3. Format the output for Discord delivery\n\nAfter running the script, take its output and deliver it to Discord channel #personal-reminders.\n\nIf the script fails or the calendar file doesn't exist, report that no events were found.\n\n**Do NOT run webhook_send.py \u2014 the cron system handles delivery automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "9 7 * * *",
+        "display": "9 7 * * *"
+      },
+      "schedule_display": "9 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T08:46:28.877236+08:00",
+      "next_run_at": "2026-05-13T07:09:00+08:00",
+      "last_run_at": "2026-05-12T07:11:19.861046+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "c049780efeb0",
+      "name": "Weekly Calendar Overview",
+      "prompt": "Run the weekly calendar overview script and deliver to Discord.\n\nCommand: `cd ~/.hermes && python3 scripts/weekly_calendar_overview.py`\n\nThe script will:\n1. Read calendar events from ~/.hermes/data/calendar.json\n2. Identify events for the upcoming week\n3. Group by day and category\n4. Format the output for Discord delivery\n\nAfter running the script, take its output and deliver it to Discord channel #personal-reminders.\n\nIf the script fails or the calendar file doesn't exist, report that no events were found for the week.\n\n**Do NOT run webhook_send.py \u2014 the cron system handles delivery automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 1",
+        "display": "0 8 * * 1"
+      },
+      "schedule_display": "0 8 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T08:46:35.669064+08:00",
+      "next_run_at": "2026-05-18T08:00:00+08:00",
+      "last_run_at": "2026-05-11T08:03:25.810119+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#personal-reminders",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "dbe2a95adfb6",
+      "name": "daily-weather-report",
+      "prompt": "[IMPORTANT: You are running as a scheduled cron job. DELIVERY SUPPRESSED: This job uses \"local\" delivery \u2014 your final response is NOT auto-delivered. Instead, the full script output \n\nRun the daily HK weather report script.\n\n**CRITICAL INSTRUCTION \u2014 Full Pass-Through Required:**\nDO NOT summarize, truncate, or rewrite the script output. The script produces a rich actionable report with clothing advice, umbrella guidance, sunscreen recommendations, and balcony clothes reminders. Preserve the ENTIRE output verbatim.\n\nSteps:\n1. Run `cd ~/.hermes && python3 scripts/daily_weather_report.py`\n2. Take the FULL script output (every line, unmodified) and save it to `~/.hermes/cron/output/daily-weather-report.txt`\n3. Deliver the full report to Discord #weather via webhook: `python3 ~/.hermes/scripts/webhook_send.py weather -f ~/.hermes/cron/output/daily-weather-report.txt`\n\nIf the script fails, use web search to get Hong Kong weather from HKO and format a basic report covering: current temp, today's range, rain probability, wind, humidity, and clothing/umbrella/balcony advice. Then save and deliver the same way.\n\n**ABSOLUTELY DO NOT:**\n- Summarize the script output in your response\n- Create a shortened \"highlights\" version\n- Add your own commentary or formatting on top of the script output\n- Use send_message or any messaging tool \u2014 delivery is via webhook_send.py only",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "7 7 * * *",
+        "display": "7 7 * * *"
+      },
+      "schedule_display": "7 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T10:48:54.797680+08:00",
+      "next_run_at": "2026-05-13T07:07:00+08:00",
+      "last_run_at": "2026-05-12T07:09:06.557576+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499600449236631613",
+        "chat_name": "Orange's Workspace / #personal-reminders / Now I wanna add a daily weather reports to give me a heads-up on the day's we...",
+        "thread_id": "1499600449236631613"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "90eea3589acf",
+      "name": "weather-change-alert",
+      "prompt": "Run the weather change alert script.\n\nCommand: cd ~/.hermes && python3 scripts/weather_change_alert.py\n\nThe script will:\n1. Compare current weather with previous conditions\n2. Detect significant changes (temperature drops, rain approaching, etc.)\n3. Generate alerts for notable changes\n\n- If the script outputs \"NO_CHANGE\" \u2192 respond with [SILENT] to suppress delivery.\n- If the script outputs meaningful content (real weather change detected) \u2192 format it nicely and deliver to Discord #weather channel.\n- IMPORTANT: Do NOT call any messaging tool directly. Use cron deliver mechanism.\n- Never deliver \"no change\" messages to Discord.",
+      "skills": [],
+      "skill": null,
+      "model": "deepseek-v4-flash",
+      "provider": "opencode-go",
+      "base_url": null,
+      "script": "weather_change_alert.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "7 0,6,12,18 * * *",
+        "display": "7 0,6,12,18 * * *"
+      },
+      "schedule_display": "7 0,6,12,18 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 42
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-05-12T13:38:34.344696+08:00",
+      "paused_reason": null,
+      "created_at": "2026-05-01T10:48:55.953129+08:00",
+      "next_run_at": "2026-05-12T18:07:00+08:00",
+      "last_run_at": "2026-05-12T12:08:07.439612+08:00",
+      "last_status": "error",
+      "last_error": "Script not found: /Users/zichengliao/.hermes/scripts/weather_change_alert.py",
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499600449236631613",
+        "chat_name": "Orange's Workspace / #personal-reminders / Now I wanna add a daily weather reports to give me a heads-up on the day's we...",
+        "thread_id": "1499600449236631613"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null,
+      "no_agent": true
+    },
+    {
+      "id": "62a246b1971c",
+      "name": "weather-warning-watchdog",
+      "prompt": "Run the HK weather warning watchdog script.\n\nCommand: cd ~/.hermes && python3 scripts/weather_warning_watchdog.py\n\nThe script will:\n1. Check Hong Kong Observatory for active weather warnings\n2. Monitor for typhoon signals, rainstorm warnings, thunderstorm warnings\n3. Generate enriched alerts (lightning zones, heavy rain, forecast context) for any active or new warnings\n4. Has built-in quiet hours (23:00-07:00) \u2014 EXTEND notifications are suppressed automatically\n5. Automatically skips delivery when no active warnings remain\n\nCRITICAL \u2014 DELIVERY RULES:\n- If the script output is \"NO_CHANGE\" or empty \u2192 respond with exactly \"[SILENT]\" (nothing else) to suppress delivery\n- If the script output has content (enriched alert text) \u2192 output ONLY the raw script output as your final response. No commentary, no explanations, no status messages.\n- NEVER generate your own \"no active warnings\" message. If script says NO_CHANGE, use [SILENT]. Period.",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "weather_warning_watchdog.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "display": "*/15 * * * *"
+      },
+      "schedule_display": "*/15 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 974
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T11:12:56.851425+08:00",
+      "next_run_at": "2026-05-12T14:30:00+08:00",
+      "last_run_at": "2026-05-12T14:15:42.788435+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499600449236631613",
+        "chat_name": "Orange's Workspace / #personal-reminders / Now I wanna add a daily weather reports to give me a heads-up on the day's we...",
+        "thread_id": "1499600449236631613"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null,
+      "no_agent": true
+    },
+    {
+      "id": "3c3b7d626eba",
+      "name": "daily-proactive-research",
+      "prompt": "You are an autonomous daily research agent. Your mission: discover ONE genuinely valuable thing that most people don't know about - a market insight, research methodology, tool, or concept that could improve Orange's trading workflow or knowledge.\n\n## Rules\n\n1. **ONE thing only** \u2014 depth over breadth\n2. **Must be genuinely useful** \u2014 not common knowledge\n3. **Must be verifiable** \u2014 cite sources\n4. **Relevant to a HK/US/A-share trader** \u2014 focus on actionable insights\n\n## Research Process\n\n1. Pick a topic area: market microstructure, data sources, research tools, trading strategies, risk management, or AI/tech advances relevant to trading\n2. Use web_search to find the most interesting and underappreciated insight\n3. Verify it with at least 2 sources\n4. Explain why it matters and how Orange could use it\n\n## Output Format\n\n```\n\ud83d\udd2c Daily Proactive Research \u2014 [DATE]\n\n## Topic: [Title]\n\n### What It Is\n[Clear explanation]\n\n### Why It Matters\n[Impact on trading/research]\n\n### How to Use It\n[Actionable steps]\n\n### Sources\n- [Source 1]\n- [Source 2]\n```\n\n**Do NOT run webhook_send.py or any other delivery command \u2014 the cron system handles delivery automatically.**",
+      "skills": [],
+      "skill": null,
+      "model": "qwen3.6-plus",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 3 * * *",
+        "display": "30 3 * * *"
+      },
+      "schedule_display": "30 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-01T11:29:07.478225+08:00",
+      "next_run_at": "2026-05-13T03:30:00+08:00",
+      "last_run_at": "2026-05-12T03:33:33.707628+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499437776561766581",
+        "chat_name": "Orange's Workspace / #research / research what you can do at midnight proactively for self-improvement while I...",
+        "thread_id": "1499437776561766581"
+      },
+      "enabled_toolsets": [
+        "web",
+        "file",
+        "search"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "56418dbf47f4",
+      "name": "Daily Passive Income Opportunity Research",
+      "prompt": "You are Orange's Autonomous Passive Income Builder. You research, build, and deploy \u2014 not just report.\n\n**STEP 1: Read the project tracker**\nRead ~/.hermes/data/passive-income-tracker.json (create if missing: {\"projects\": [], \"opportunities\": [], \"archive\": []})\n\nThe tracker has these fields per project:\n- id, name, category, status (researching \u2192 building \u2192 deployed \u2192 earning \u2192 archived)\n- evidence (demand data, sources), startup_cost, estimated_revenue\n- progress (%), next_task, created_at, deployed_url (if applicable)\n- build_log: array of what was built/done\n\n**STEP 2: Research ONE new opportunity**\nUse web_search. Criteria:\n- Verified demand (search volume, competitor revenue, marketplace data)\n- Zero or near-zero cost\n- You can BUILD it autonomously (digital products, templates, tools, scripts, content, websites, APIs)\n- Skip anything already in tracker as \"building\" or \"deployed\"\n\n**STEP 3: Auto-prioritize \u2014 can you build it?**\nFor each opportunity, ask: \"Can I build the MVP of this myself with code/scripts/content?\"\n- YES \u2192 Add to tracker as status \"researching\" \u2192 move to STEP 4\n- NO (needs physical goods, legal setup, capital) \u2192 Add to tracker as \"idea\" \u2192 report only\n\n**STEP 4: AUTONOMOUSLY BUILD the top opportunity's MVP**\nIf the highest-priority project is in \"researching\" status and you have evidence it's viable:\n- Change status to \"building\"\n- Actually BUILD something: write the code, create the template, draft the content, set up the repo, deploy to GitHub Pages, create the script, write the guide\n- Use terminal, file, and delegation tools to execute\n- Log every build step in the project's build_log\n- If deployable \u2192 deploy it and record the URL\n- If done \u2192 change status to \"deployed\"\n\n**STEP 5: Continue building existing projects**\nIf a project is in \"building\" status, continue working on it:\n- What's the next milestone? Build it.\n- Update progress % and build_log\n- If milestone complete \u2192 advance status\n\n**STEP 6: Output the daily brief**\n\n\ud83c\udfd7\ufe0f Passive Income Builder \u2014 {date}\n\n\ud83d\udd28 BUILDING: {project name}\n- Progress: {X}% \u2192 {Y}%\n- Today: {what was built}\n- {If deployed: Live at: {url}}\n\n\ud83d\udcca PIPELINE:\n{Each project, one line with emoji status}\n\u2705 deployed: X \u2014 {url} \u2014 {revenue if any}\n\ud83d\udd28 building: Y \u2014 {next milestone}\n\ud83d\udd0d researching: Z \u2014 {why it's viable}\n\n\u26a1 NEXT: {what will be built tomorrow}\n\n**RULES:**\n- BUILD first, report second. Your job is execution.\n- Every claim about demand must cite a real source\n- Don't ask permission to build \u2014 just do it (user can say stop if they don't like a direction)\n- Keep briefs under 800 chars for Discord\n- Track everything in the JSON file\n- Never hallucinate revenue or demand numbers\n",
+      "skills": [],
+      "skill": null,
+      "model": "qwen3.6-plus",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 20 * * *",
+        "display": "2 20 * * *"
+      },
+      "schedule_display": "2 20 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-02T09:26:28.004218+08:00",
+      "next_run_at": "2026-05-12T20:02:00+08:00",
+      "last_run_at": "2026-05-11T20:16:03.278732+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1499014349119815742",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499908596056588408",
+        "chat_name": "Orange's Workspace / #research / Can you reseach how to generate passive incomes with Hermes Agent?",
+        "thread_id": "1499908596056588408"
+      },
+      "enabled_toolsets": [
+        "web",
+        "file",
+        "terminal",
+        "delegation"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "7173fd07871c",
+      "name": "Cron Output Cleanup",
+      "prompt": "Run the cron output cleanup script to remove old files based on retention policies.\n\nCommand: cd ~/.hermes && python3 scripts/cron_cleanup.py\n\nThis is a script-only task - do NOT use agentTurn. Just run the script and report the output.",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 3 * * *",
+        "display": "2 3 * * *"
+      },
+      "schedule_display": "2 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 9
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-02T10:57:19.706109+08:00",
+      "next_run_at": "2026-05-13T03:02:00+08:00",
+      "last_run_at": "2026-05-12T03:03:32.829061+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499966333486366840",
+        "chat_name": "Orange's Workspace / #personal-reminders / And why is that there are actual cron job's output and the cron job response ...",
+        "thread_id": "1499966333486366840"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "efb99f0d4adb",
+      "name": "Hermes Monthly Deep Review",
+      "prompt": "## Monthly Hermes Deep Review\n\nRun a comprehensive monthly review of your Hermes Agent setup. **Do NOT make any changes without explicit user approval - this is a read-only audit.**\n\n### Monthly Deep Review Tasks:\n\n1. **Cron Job Analysis (Monthly)**\n   - List all cron jobs: `cronjob action='list'`\n   - Calculate success/failure rates for the month\n   - Identify jobs that have never run successfully\n   - Find jobs with repeated delivery errors\n   - Suggest optimizations (frequency, timing, prompt improvements)\n\n2. **Usage Patterns Analysis**\n   - Check log files for usage patterns\n   ```bash\n   cat ~/.hermes/logs/hermes.log | grep -E \"(skill_view|skill_add)\" | tail -100\n   ```\n   - Identify most-used features and skills\n   - Find underutilized capabilities\n\n3. **Data Health Check**\n   - Review data files for freshness\n   ```bash\n   ls -la ~/.hermes/data/\n   stat ~/.hermes/data/*.json\n   ```\n   - Identify stale or outdated data sources\n   - Check for data file size growth\n\n4. **Script Inventory**\n   ```bash\n   ls -la ~/.hermes/scripts/\n   ```\n   - Verify all scripts are present\n   - Check for any scripts that may need updates\n\n5. **Output Directory Audit**\n   ```bash\n   du -sh ~/.hermes/cron/output/\n   ls -lt ~/.hermes/cron/output/ | head -20\n   ```\n   - Check output file retention\n   - Identify large files that may need cleanup\n\n6. **Skill Review**\n   - List all skills and their usage\n   - Identify skills that may need updating\n   - Suggest new skills to create\n\n### Output Format\n\nGenerate a comprehensive monthly report:\n\n```\n\ud83d\udcca Hermes\u6708\u5ea6\u6df1\u5ea6\u5ba1\u67e5 - [MONTH YEAR]\n\n\ud83d\udcc8 Cron\u4f5c\u4e1a\u5206\u6790\n\u2022 \u603b\u4f5c\u4e1a\u6570: [X]\n\u2022 \u6708\u5ea6\u6210\u529f\u7387: [X%]\n\u2022 \u9700\u8981\u4f18\u5316: [X]\n[\u8be6\u7ec6\u5217\u51fa\u95ee\u9898\u4f5c\u4e1a\u53ca\u5efa\u8bae]\n\n\ud83d\udd0d \u4f7f\u7528\u6a21\u5f0f\n\u2022 \u6700\u5e38\u7528\u529f\u80fd: [\u5217\u8868]\n\u2022 \u5f85\u63a2\u7d22\u529f\u80fd: [\u5217\u8868]\n\n\ud83d\udcc1 \u6570\u636e\u5065\u5eb7\n\u2022 \u72b6\u6001: [\u6b63\u5e38/\u9700\u66f4\u65b0]\n\u2022 \u8fc7\u671f\u6587\u4ef6: [\u5982\u6709]\n\n\ud83e\uddf9 \u6e05\u7406\u5efa\u8bae\n\u2022 \u53ef\u6e05\u7406\u7a7a\u95f4: [X MB]\n\u2022 \u5efa\u8bae: [\u5177\u4f53\u6e05\u7406\u9879]\n\n\ud83d\udca1 \u6539\u8fdb\u5efa\u8bae\n1. [\u5177\u4f53\u5efa\u8bae]\n2. [\u5177\u4f53\u5efa\u8bae]\n3. [\u5177\u4f53\u5efa\u8bae]\n\n---\n*\u5ba1\u67e5\u751f\u6210\u65f6\u95f4: [TIME]*\n```\n\n**IMPORTANT: This is a read-only audit. Do NOT make any changes without user approval. Your output will be saved automatically by the cron system \u2014 do NOT run webhook_send.py or any other delivery command.**",
+      "skills": [],
+      "skill": null,
+      "model": "qwen3.6-plus",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 20 1 * *",
+        "display": "2 20 1 * *"
+      },
+      "schedule_display": "2 20 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-02T19:25:45.946060+08:00",
+      "next_run_at": "2026-06-01T20:02:00+08:00",
+      "last_run_at": "2026-05-10T16:03:42.927667+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1500094473470869516",
+        "chat_name": "Orange's Workspace / #hermes / Do I need to set up a comprehensive periodic review on my Hermes Agent? e.g. ...",
+        "thread_id": "1500094473470869516"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "cronjob",
+        "messaging"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "6e3cb89ec7f7",
+      "name": "hermes-skill-discovery",
+      "prompt": "You are a Hermes Agent skill & tool discovery guide for Orange (a hedge fund trader in HK). Your job is to discover and report ONE genuinely useful AI skill, tool, or workflow pattern that could improve his trading, productivity, or research.\n\n**MANDATORY: All output must be in English. No Chinese, no Simplified Chinese, no Traditional Chinese.**\n\nSteps:\n1. Browse the skills library (skills_list + skill_view for promising skills)\n2. Search the web for new AI tools, agent workflows, or Hermes-related discoveries\n3. Identify ONE actionable, specific thing worth knowing\n4. Format as a concise Discord post with:\n   - What it is / does\n   - Why it matters for a HK hedge fund trader\n   - How to try it (if applicable)\n\nPost your findings to Discord.",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9 * * *",
+        "display": "30 9 * * *"
+      },
+      "schedule_display": "30 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 9
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-03T09:08:00.635257+08:00",
+      "next_run_at": "2026-05-13T09:30:00+08:00",
+      "last_run_at": "2026-05-12T09:41:30.914565+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#hermes",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1500299369084223518",
+        "chat_name": "Orange's Workspace / #hermes / was wiki llm pre installed pre installed by me?",
+        "thread_id": "1500299369084223518"
+      },
+      "enabled_toolsets": [
+        "skills",
+        "file",
+        "search",
+        "web"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "e39c870f7710",
+      "name": "non-trading-day-alerts",
+      "prompt": "\u4f60\u662fOrange\u7684\u6295\u8d44\u7ec4\u5408\u8b66\u62a5\u5206\u6790\u5e08\u3002\u4ee5\u4e0b\u662f\u975e\u4ea4\u6613\u65e5(\u5468\u672b/\u5047\u671f)\u7684\u5e02\u573a\u65b0\u95fb\u76d1\u63a7\u7ed3\u679c\uff0c\u6db5\u76d616\u5c42\u68c0\u6d4b\u8986\u76d6\u6240\u6709\u4e09\u5730\u5e02\u573a(US/HK/A\u80a1)\u3002\n\n**\u91cd\u8981\u6307\u793a\uff1a**\n\n1. `NO_NEWS` \u6216 `SILENT` \u2192 \u76f4\u63a5\u8f93\u51fa \"[SILENT]\" \u5e76\u505c\u6b62\u3002\u4e0d\u8981\u53d1\u9001\u4efb\u4f55\u5185\u5bb9\u3002\n2. \u5982\u679c\u6709\u4ef7\u683c\u8b66\u62a5\uff08\u7f8e\u80a1\u76d8\u524d/\u76d8\u540e\u3001A\u80a1\u5f02\u52a8\uff09\uff0c**\u5fc5\u987b\u53d1\u9001**\uff0c\u5373\u4f7f\u4eca\u5929\u662fHK\u5047\u671f/\u5468\u672b\u3002\n3. \u5982\u679c\u6240\u6709\u5e02\u573a\u90fd\u5173\u95ed\uff08US/A\u80a1/HK\uff09\uff0c\u4fdd\u63013\u5c0f\u65f6\u95f4\u9694\uff0c\u51cf\u5c11\u5e72\u6270\u3002\n\n**\u975e\u4ea4\u6613\u65e5\u903b\u8f91\uff1a**\n- \u5982\u679c\u4eca\u5929\u662fHK\u5047\u671f/\u5468\u672b\uff0c\u4f46US\u6216A\u80a1\u6b63\u5e38\u4ea4\u6613 \u2192 \u53d1\u9001\u4ef7\u683c\u8b66\u62a5\u548c\u91cd\u8981\u65b0\u95fb\n- \u5982\u679c\u6240\u6709\u5e02\u573a\u90fd\u5173\u95ed \u2192 \u4ec5\u53d1\u9001\u91cd\u5927\u4e8b\u4ef6\uff08\u5730\u7f18\u653f\u6cbb\u3001\u653f\u7b56\u53d8\u5316\uff09\uff0c\u5ffd\u7565\u566a\u97f3\n\n**\u8f93\u51fa\u683c\u5f0f\uff1a**\n\n```\n\ud83d\udcca \u975e\u4ea4\u6613\u65e5\u8b66\u62a5 | [HH:MM HKT]\n\n\u3010\u4ef7\u683c\u8b66\u62a5\u3011\uff08\u5982\u6709\uff09\n\u2022 [\u80a1\u7968\u4ee3\u7801] [\u80a1\u7968\u540d\u79f0] | [\u4ef7\u683c\u53d8\u52a8]\n  \ud83d\udd50 \u53d1\u5e03\u65f6\u95f4: [\u6570\u636e\u4e2d\u7684time/published\u5b57\u6bb5\uff0c\u5982\u672a\u77e5\u5199\"\u8fd1\u671f\"]\n  \u5f71\u54cd: [2-3\u53e5\u7b80\u4f53\u4e2d\u6587]\n  \u94fe\u63a5: [URL]\n\n\u3010\u91cd\u8981\u65b0\u95fb\u3011\uff08\u5982\u6709\uff09\n\u2022 [\u4e8b\u4ef6]\n  \ud83d\udd50 \u53d1\u5e03\u65f6\u95f4: [\u6570\u636e\u4e2d\u7684time/published\u5b57\u6bb5\uff0c\u5982\u672a\u77e5\u5199\"\u8fd1\u671f\"]\n  \u5f71\u54cd: [2-3\u53e5\u7b80\u4f53\u4e2d\u6587]\n  \u94fe\u63a5: [URL]\n\n\u3010\u884c\u52a8\u5efa\u8bae\u3011\n\u2022 [\u5177\u4f53\u5efa\u8bae\uff0c\u6216\"\u6682\u65e0\u7279\u6b8a\u884c\u52a8\"]\n```\n\n**\u65f6\u95f4\u65b0\u9c9c\u5ea6\u63d0\u793a\uff1a** \u5bf9\u6bd4\u53d1\u5e03\u65f6\u95f4\u4e0e\u5f53\u524d\u65f6\u95f4\uff0c\u82e5\u65b0\u95fb\u8d85\u8fc724\u5c0f\u65f6\u65e7\uff0c\u6807\u6ce8\"(\u8f83\u65e7)\"\u63d0\u9192\u7528\u6237\u3002\n\n**\u6301\u4ed3\u53c2\u8003\uff08\u80a1\u7968\u4ee3\u7801 \u2192 \u516c\u53f8\u540d\u79f0\uff0c\u5fc5\u987b\u4f7f\u7528\u4ee5\u4e0b\u540d\u79f0\uff0c\u4e0d\u53ef\u81ea\u884c\u7f16\u9020\uff09\uff1a**\n- **\u534a\u5bfc\u4f53/\u5b58\u50a8**: MU.O (\u7f8e\u5149\u79d1\u6280/Micron), SNDK.O (\u95ea\u8fea/SanDisk), LITE.O (Lumentum)\n- **\u5149\u901a\u4fe1/\u5149\u6a21\u5757**: 300308.SZ (\u4e2d\u9645\u65ed\u521b), 300502.SZ (\u65b0\u6613\u76db)\n- **PCB/\u8986\u94dc\u677f**: 002384.SZ (\u4e1c\u5c71\u7cbe\u5bc6), 1888.HK (\u5efa\u6ed4\u79ef\u5c42\u677f), 300476.SZ (\u80dc\u5b8f\u79d1\u6280), 3200.HK (\u5927\u65cf\u6570\u63a7), 600183.SH (\u751f\u76ca\u79d1\u6280), 688700.SH (\u4e1c\u5a01\u79d1\u6280)\n- **AI/\u7b97\u529b/\u4e91**: 2513.HK (\u667a\u8c31/Zhipu AI), 601138.SH (\u5de5\u4e1a\u5bcc\u8054), 7709.HK (\u5357\u65b9\u4e1c\u82f12\u500d\u505a\u591aSK\u6d77\u529b\u58ebETF)\n- **\u5149\u7ea4\u5149\u7f06**: 6869.HK (\u957f\u98de\u5149\u7ea4)\n- **\u65b0\u80fd\u6e90/\u7535\u6c60**: 300438.SZ (\u9e4f\u8f89\u80fd\u6e90), 300750.SZ (\u5b81\u5fb7\u65f6\u4ee3)\n- **\u9ec4\u91d1/\u8d35\u91d1\u5c5e**: 2259.HK (\u7d2b\u91d1\u9ec4\u91d1\u56fd\u9645)\n- **\u5de5\u4e1a/\u5236\u9020**: 002353.SZ (\u6770\u745e\u80a1\u4efd), 600482.SH (\u4e2d\u56fd\u52a8\u529b), 603268.SH (\u677e\u53d1\u80a1\u4efd), 688808.SH (\u8054\u8baf\u4eea\u5668)\n- **\u5c04\u9891/\u5929\u7ebf**: 300136.SZ (\u4fe1\u7ef4\u901a\u4fe1)\n- **\u7535\u529b\u8bbe\u5907**: 002028.SZ (\u601d\u6e90\u7535\u6c14)\n- **\u6750\u6599**: 3858.HK (\u4f73\u946b\u56fd\u9645\u8d44\u6e90), 600176.SH (\u4e2d\u56fd\u5de8\u77f3)\n- **\u5176\u4ed6**: 3393.HK (\u5a01\u80dc\u63a7\u80a1)\n\n**\u26a0\ufe0f \u91cd\u8981\uff1a\u63d0\u5230\u6301\u4ed3\u80a1\u7968\u65f6\u5fc5\u987b\u4f7f\u7528\u4e0a\u65b9\u62ec\u53f7\u4e2d\u7684\u516c\u53f8\u540d\u79f0\uff0c\u4e25\u7981\u81ea\u884c\u7f16\u9020\u6216\u731c\u6d4b\u540d\u79f0\u3002**\n\n**\u89c4\u5219\uff1a**\n1. \u5168\u90e8\u4f7f\u7528\u7b80\u4f53\u4e2d\u6587\n2. \u5305\u542b\u6765\u6e90URL\n3. \u7b80\u6d01\uff0c\u4e0d\u8d85\u8fc7800\u5b57\n4. \u5982\u679c\u65e0\u91cd\u8981\u4e8b\u4ef6\uff0c\u8f93\u51fa \"[SILENT]\"",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "non_trading_day_alerts.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "2 */3 * * *",
+        "display": "2 */3 * * *"
+      },
+      "schedule_display": "2 */3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 65
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-03T12:50:09.774569+08:00",
+      "next_run_at": "2026-05-12T15:02:00+08:00",
+      "last_run_at": "2026-05-12T12:07:07.039770+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#portfolio-alerts",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1500315223394091130",
+        "chat_name": "Orange's Workspace / #portfolio-alerts / why didn\u2019t I receive any alerts during the weekend?",
+        "thread_id": "1500315223394091130"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "612b4ee82781",
+      "name": "church-service-tracker",
+      "prompt": "Run the WhatsApp church service tracker script.\n\nCommand:\n```bash\ncd ~/.hermes && python3 scripts/whatsapp_church_tracker.py\n```\n\nThis script:\n1. Monitors for church service time announcements\n2. Syncs to iCloud \"Church\" calendar\n3. Sends Discord notifications before services\n\nCheck the output in ~/.hermes/cron/output/church/whatsapp-tracker/",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "whatsapp_church_tracker.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "display": "0 7 * * *"
+      },
+      "schedule_display": "0 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 5
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T08:29:01.755467+08:00",
+      "next_run_at": "2026-05-13T07:00:00+08:00",
+      "last_run_at": "2026-05-12T07:00:34.320846+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501248839930085386",
+        "chat_name": "Orange's Workspace / #church-life / are you still tracking my church services in the whatsapp groups?",
+        "thread_id": "1501248839930085386"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "627c37696431",
+      "name": "church-service-notifier",
+      "prompt": "Run the WhatsApp church service notifier:\n\n```bash\ncd ~/.hermes/scripts && python3 whatsapp_church_tracker.py --notify-only 2>&1\n```\n\nReport any notifications sent. If nothing to notify, output \"[SILENT]\".",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 6-23 * * *",
+        "display": "*/15 6-23 * * *"
+      },
+      "schedule_display": "*/15 6-23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 397
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T08:29:08.984525+08:00",
+      "next_run_at": "2026-05-12T14:30:00+08:00",
+      "last_run_at": "2026-05-12T14:15:41.711876+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501248839930085386",
+        "chat_name": "Orange's Workspace / #church-life / are you still tracking my church services in the whatsapp groups?",
+        "thread_id": "1501248839930085386"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "a0f3eac9477b",
+      "name": "auto-sector-classify",
+      "prompt": "Run the auto sector classification script to update sector mappings for any new stocks in the portfolio.\n\nCommand:\n```bash\ncd ~/.hermes && python3 scripts/auto_sector_classify.py --update\n```\n\nAfter running:\n1. Check if the script succeeded\n2. Verify the SECTOR_MAP was updated in both portfolio_config.py and portfolio_monitor.py\n3. Report the changes made (new sectors, moved stocks)\n\nKeep output concise - just report what changed.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "auto_sector_classify.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "10 8 * * 1-5",
+        "display": "10 8 * * 1-5"
+      },
+      "schedule_display": "10 8 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T09:49:14.845650+08:00",
+      "next_run_at": "2026-05-13T08:10:00+08:00",
+      "last_run_at": "2026-05-12T08:11:16.272646+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501396075146383470",
+        "chat_name": "Orange's Workspace / #portfolio-alerts / Why 002353.SZ (\u6770\u745e\u80a1\u4efd)'s \u540c\u4e1a is (\u534a\u5bfc\u4f53/\u5b58\u50a8) in the price alert? And why is it that ...",
+        "thread_id": "1501396075146383470"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "61d6cc742f74",
+      "name": "hermes-update-check",
+      "prompt": "Check if Hermes Agent has new updates available.\n\nRun:\n```bash\ncd ~/.hermes/hermes-agent && git fetch origin && git status\n```\n\nIf there are new commits (behind origin/main):\n1. Count how many commits behind\n2. Send a Discord message to #hermes: \"\ud83d\udce6 Hermes Agent update available: X commits behind origin/main. Run `hermes update` to install.\"\n3. Save output to ~/.hermes/cron/output/hermes-update-check.txt\n\nIf up to date:\n- Do NOT send any message (silent)\n- Just log to ~/.hermes/cron/output/hermes-update-check.txt\n\nKeep it silent when no update is available.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "check-hermes-update.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "4 9 * * *",
+        "display": "4 9 * * *"
+      },
+      "schedule_display": "4 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T11:25:51.396490+08:00",
+      "next_run_at": "2026-05-13T09:04:00+08:00",
+      "last_run_at": "2026-05-12T09:06:36.770904+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#hermes",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501418199055466627",
+        "chat_name": "Orange's Workspace / #hermes / Did you change anything during the auto-update last night? I cannot use inter...",
+        "thread_id": "1501418199055466627"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "7d20f4c11d0d",
+      "name": "daily-hwmr-portion",
+      "prompt": "Run the HWMR daily portion script and deliver the FULL content to Discord.\n\nCommand: cd ~/.hermes/scripts && python3 hwmr_daily_portion.py\n\nThe script outputs the daily HWMR portion with `===HWMR_MSG_SPLIT===` markers separating each message section. Discord has a 2000 character limit per message.\n\nIMPORTANT: You MUST use the send_message tool to send each section as a separate Discord message to #morning-revival. Do NOT just output the content as your final response \u2014 that will be delivered as a single truncated message.\n\nSteps:\n1. Run the script to get the output\n2. Split the output on `===HWMR_MSG_SPLIT===` markers\n3. For each section, call send_message with target=\"discord:#morning-revival\" and the section content as the message\n4. Your final response should be a brief summary like \"\u2705 HWMR delivered \u2014 X messages sent\"\n\nDo NOT truncate or summarize the HWMR content \u2014 deliver every section in full.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hwmr_daily_portion.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * 1-6",
+        "display": "0 7 * * 1-6"
+      },
+      "schedule_display": "0 7 * * 1-6",
+      "repeat": {
+        "times": null,
+        "completed": 10
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T16:25:34.990770+08:00",
+      "next_run_at": "2026-05-13T07:00:00+08:00",
+      "last_run_at": "2026-05-12T07:01:27.588462+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501403467183558747",
+        "chat_name": "Orange's Workspace / #church-life / hi",
+        "thread_id": "1501403467183558747"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "b13ff3ac6eed",
+      "name": "currency-risk-monitor",
+      "prompt": "Run the currency risk overlay monitor. Script delivers its own Discord alerts when FX threshold is crossed \u2014 no agent needed.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "currency_monitor.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8,12,16,20 * * 1-5",
+        "display": "0 8,12,16,20 * * 1-5"
+      },
+      "schedule_display": "0 8,12,16,20 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 16
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T16:47:47.406436+08:00",
+      "next_run_at": "2026-05-12T16:00:00+08:00",
+      "last_run_at": "2026-05-12T13:39:19.452931+08:00",
+      "last_status": "error",
+      "last_error": "Script not found: /Users/zichengliao/.hermes/scripts/currency_monitor.py",
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501500652046782548",
+        "chat_name": "Orange's Workspace / #market-brief / I see that we have market-brief, portfolio-alerts, and price-alerts channels....",
+        "thread_id": "1501500652046782548"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "b3f8421bd038",
+      "name": "EOD HKS Cash - Content",
+      "prompt": "Run the EOD content script and deliver its output as-is to Discord.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hks_cash_eod_content.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/3 16-18 * * 1-5",
+        "display": "*/3 16-18 * * 1-5"
+      },
+      "schedule_display": "*/3 16-18 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 168
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-06T21:20:50.835771+08:00",
+      "next_run_at": "2026-05-12T16:00:00+08:00",
+      "last_run_at": "2026-05-11T18:57:47.853405+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501557699068825610",
+        "chat_name": "Orange's Workspace / #market-flows / I wanna add more routine work to this channel besides the daily CICC market f...",
+        "thread_id": "1501557699068825610"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "6ca8154bc05f",
+      "name": "fundamentals-daily-refresh",
+      "prompt": "Run `python3 fundamental_data_fetcher.py --update` to refresh stale fundamental data (>24h old).\n\nRequirements:\n1. Change to ~/.hermes/scripts directory first\n2. Run the update command\n3. Capture output (success/failure, number of stocks updated)\n4. If successful, save output to ~/.hermes/cron/output/fundamentals-YYYY-MM-DD.log\n5. If failed, send error alert to Discord #dev-infra\n\nNote: This is a script-only job, no LLM processing needed.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "fundamental_data_fetcher.py --update",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "display": "0 8 * * *"
+      },
+      "schedule_display": "0 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-07T21:47:35.292466+08:00",
+      "next_run_at": "2026-05-13T08:00:00+08:00",
+      "last_run_at": "2026-05-12T08:06:55.042733+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501526860415242363",
+        "chat_name": "Orange's Workspace / #price-alerts / examine the logic for the pre-market prices, the correct pre market price for...",
+        "thread_id": "1501526860415242363"
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "c491de3a9ee9",
+      "name": "session-token-monitor",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "session_token_monitor.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 6-22 * * 1-5",
+        "display": "*/30 6-22 * * 1-5"
+      },
+      "schedule_display": "*/30 6-22 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 60
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T16:31:07.680940+08:00",
+      "next_run_at": "2026-05-12T14:30:00+08:00",
+      "last_run_at": "2026-05-12T14:06:01.338673+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1501420310556049418",
+        "chat_name": "timoranjes_02636",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "0d4d76c73af4",
+      "name": "hermes-daily-backup",
+      "prompt": "Run the Hermes backup script. If it outputs \"No changes to backup\" or shows a successful backup path, respond with [SILENT]. Only report if there's an error.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "backup_hermes.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 23 * * *",
+        "display": "0 23 * * *"
+      },
+      "schedule_display": "0 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T22:59:59.366410+08:00",
+      "next_run_at": "2026-05-12T23:00:00+08:00",
+      "last_run_at": "2026-05-10T23:01:46.668008+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "a202322cf977",
+      "name": "portfolio-config-validator",
+      "prompt": "Run the portfolio config validator: cd ~/.hermes && python3 scripts/portfolio_config_check.py\n\nIf the script exits with code 0 (success), respond with [SILENT].\nIf it exits with code 1 (failure), read the output and send an urgent Discord alert to #portfolio-alerts (channel ID 1499014367746986186) with the error details. Format:\n\n\u26a0\ufe0f PORTFOLIO CONFIG ERROR\n[error details]\nFix before market open.\n\nThen respond with [SILENT] since you've already sent the alert via messaging.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "portfolio_config_check.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 8 * * 1-5",
+        "display": "5 8 * * 1-5"
+      },
+      "schedule_display": "5 8 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:00:06.033465+08:00",
+      "next_run_at": "2026-05-13T08:05:00+08:00",
+      "last_run_at": "2026-05-12T08:08:28.705585+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "messaging"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "94a002318d50",
+      "name": "resource-watchdog",
+      "prompt": "Run the resource watchdog: cd ~/.hermes && python3 scripts/resource_watchdog.py\n\nIf the output is empty, respond with [SILENT].\nIf it contains alerts, send a Discord message to #dev-general with the alert details, then respond with [SILENT].",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "resource_watchdog.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 * * * *",
+        "display": "*/30 * * * *"
+      },
+      "schedule_display": "*/30 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 134
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:00:24.707918+08:00",
+      "next_run_at": "2026-05-12T14:30:00+08:00",
+      "last_run_at": "2026-05-12T14:06:12.935903+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "messaging"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "142aaecb7a62",
+      "name": "skills-auto-update",
+      "prompt": "Run the Hermes skills update check:\n\n```bash\ncd ~/.hermes && hermes skills check 2>&1\n```\n\nIf there are updates available, also run:\n```bash\nhermes skills update 2>&1\n```\n\nReport what was found. If no updates needed, output \"[SILENT]\".",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 0",
+        "display": "0 9 * * 0"
+      },
+      "schedule_display": "0 9 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:00:33.428525+08:00",
+      "next_run_at": "2026-05-17T09:00:00+08:00",
+      "last_run_at": "2026-05-10T09:00:29.623366+08:00",
+      "last_status": "error",
+      "last_error": "Script not found: /Users/zichengliao/.hermes/scripts/hermes skills check 2>&1 && hermes skills update 2>&1 || true",
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "e67903b4634d",
+      "name": "monthly-cost-report",
+      "prompt": "Generate a monthly cost and usage report for Hermes Agent.\n\n1. Run: hermes insights --days 30\n2. Also check: cat ~/.hermes/logs/token-usage.log 2>/dev/null | tail -100\n3. Also check disk usage of ~/.hermes: du -sh ~/.hermes ~/.hermes/sessions ~/.hermes/logs ~/.hermes/cron\n\nSummarize in a concise report:\n- Total token usage by model/provider (top 5)\n- Estimated cost (use rough rates: qwen3.5-plus ~$0.003/1K input, $0.012/1K output; DeepSeek ~$0.00027/1K input, $0.0011/1K output; OpenRouter free = $0)\n- Session count and avg tokens per session\n- Disk usage summary\n- Any concerning trends (spikes, unusual patterns)\n\nFormat as a clean markdown table + brief commentary.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "4 20 1 * *",
+        "display": "4 20 1 * *"
+      },
+      "schedule_display": "4 20 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:00:44.774162+08:00",
+      "next_run_at": "2026-06-01T20:04:00+08:00",
+      "last_run_at": "2026-05-10T15:57:40.540922+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "157097ab1223",
+      "name": "earnings-calendar-alert",
+      "prompt": "Run the earnings calendar check: cd ~/.hermes && python3 scripts/earnings_calendar_check.py\n\nIf the output is empty, respond with [SILENT].\nIf it lists upcoming earnings, send a Discord message to #portfolio-alerts (channel ID 1499014367746986186) with the earnings schedule, then respond with [SILENT].",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "earnings_calendar_check.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "7 9 * * 1-5",
+        "display": "7 9 * * 1-5"
+      },
+      "schedule_display": "7 9 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-08T23:05:00.027290+08:00",
+      "next_run_at": "2026-05-13T09:07:00+08:00",
+      "last_run_at": "2026-05-12T09:07:59.513255+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "messaging"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "2b42b873112d",
+      "name": "pattern-analyzer",
+      "prompt": "Run the pattern analyzer script at ~/.hermes/scripts/pattern_analyzer.py and report the top 5 suggestions to the daily improvement channel.\n\nFocus on implementable items \u2014 highlight what can be automated vs what needs research.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "pattern_analyzer.py",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 23 * * *",
+        "display": "30 23 * * *"
+      },
+      "schedule_display": "30 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-10T15:36:44.486014+08:00",
+      "next_run_at": "2026-05-12T23:30:00+08:00",
+      "last_run_at": "2026-05-12T02:01:09.322124+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1503381387942695123",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "3ec53bacf75f",
+      "name": "self-improvement-analyzer",
+      "prompt": "Run the self-improvement analyzer at ~/.hermes/scripts/self_improvement_analyzer.py and report the top improvement recommendations for the Hermes agent. Focus on actionable changes to config, skills, or workflows that would make the agent more intelligent and proactive.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "self_improvement_analyzer.py",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * 0",
+        "display": "0 3 * * 0"
+      },
+      "schedule_display": "0 3 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-10T15:37:31.918273+08:00",
+      "next_run_at": "2026-05-17T03:00:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "4997999073de",
+      "name": "memory-cleanup",
+      "prompt": "Run a memory cleanup analysis for the Hermes agent. \n\nRead ~/.hermes/AGENTS.md and check if there's a memory file (try ~/.hermes/memory/memory.md, ~/.hermes/MEMORY.md, or similar).\n\nAnalyze what's in memory vs what's already in AGENTS.md:\n1. Find entries in memory that are now documented in AGENTS.md (these are redundant, should be removed from memory)\n2. Find entries that can be compressed without losing key facts\n3. Find stale entries (old dates, resolved issues)\n\nOutput a simple list:\n- REMOVE: [entry text] - reason\n- COMPRESS: [old] \u2192 [new compressed version]\n- KEEP: [entry] - reason\n\nThe agent will apply these changes. Keep the report under 500 chars.",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * 0",
+        "display": "0 3 * * 0"
+      },
+      "schedule_display": "0 3 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T07:50:09.950593+08:00",
+      "next_run_at": "2026-05-17T03:00:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1499014342094356673",
+        "chat_name": "Orange's Workspace / #inbox",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "file",
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "334d8cbc9756",
+      "name": "hermes-auto-update",
+      "prompt": "Check the auto-update log at ~/.hermes/logs/auto-update.log for the latest entry and report a brief summary: was Hermes updated or skipped, and why.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "auto-update.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 4 * * *",
+        "display": "0 4 * * *"
+      },
+      "schedule_display": "0 4 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T11:16:34.353229+08:00",
+      "next_run_at": "2026-05-13T04:00:00+08:00",
+      "last_run_at": "2026-05-12T04:00:38.232001+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503233646608384060",
+        "chat_name": "Orange's Workspace / #hermes / are you able to update yourself without crashing the gateway or interrupting ...",
+        "thread_id": "1503233646608384060"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "745970d22298",
+      "name": "memory-watchdog",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "memory-watchdog.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 60,
+        "display": "every 60m"
+      },
+      "schedule_display": "every 60m",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T12:38:27.482371+08:00",
+      "next_run_at": "2026-05-12T14:55:50.183864+08:00",
+      "last_run_at": "2026-05-12T13:55:50.183864+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "064b846feb66",
+      "name": "price-watcher-1min",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "lightweight_price_watcher.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/1 * * * 1-5",
+        "display": "*/1 * * * 1-5"
+      },
+      "schedule_display": "*/1 * * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 1157
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T13:35:08.175961+08:00",
+      "next_run_at": "2026-05-12T14:20:00+08:00",
+      "last_run_at": "2026-05-12T14:19:47.431340+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:#portfolio-alerts",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503234759092863037",
+        "chat_name": "Orange's Workspace / #price-alerts / Fixes Verification and Outcomes",
+        "thread_id": "1503234759092863037"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "b5327e4afa6f",
+      "name": "portfolio-news-monitor",
+      "prompt": "\u4f60\u662fOrange\u7684\u6295\u8d44\u7ec4\u5408\u65b0\u95fb\u5206\u6790\u5e08\u3002\u6309\u4ee5\u4e0b\u6b65\u9aa4\u8fd0\u884c\u5e76\u5206\u6790\u65b0\u95fb\u76d1\u63a7\uff1a\n\n**\u7b2c\u4e00\u6b65\uff1a\u8fd0\u884c\u811a\u672c**\n```bash\ncd ~/.hermes && /opt/homebrew/bin/python3 scripts/news_monitor.py --report --no-discord 2>/dev/null\n```\n\n**\u7b2c\u4e8c\u6b65\uff1a\u5206\u6790\u6bcf\u4e2a\u65b0\u95fb\u4e8b\u4ef6**\n\u811a\u672c\u8f93\u51fa\u4f1a\u5305\u542b PENDING_EVENTS_COUNT \u548c\u6bcf\u4e2a\u4e8b\u4ef6\u7684\u8be6\u7ec6\u4fe1\u606f\uff08type, title, time, source, url, reason, content\uff09\u3002\n\n\u5bf9\u6bcf\u4e2a\u4e8b\u4ef6\uff0c\u8fdb\u884c\u4ee5\u4e0b\u5206\u6790\uff1a\n1. **\u9605\u8bfb\u65b0\u95fb\u5168\u6587** \u2014 \u4f7f\u7528 content \u5b57\u6bb5\u83b7\u53d6\u65b0\u95fb\u5b8c\u6574\u5185\u5bb9\uff0c\u4e0d\u8981\u53ea\u770b\u6807\u9898\n2. **\u5224\u65ad\u4e0e\u7ec4\u5408\u7684\u76f8\u5173\u6027** \u2014 \u4e8b\u4ef6\u662f\u5426\u76f4\u63a5\u5f71\u54cd\u6301\u4ed3\u80a1\u3001\u884c\u4e1a\u3001\u6216\u5b8f\u89c2\u73af\u5883\uff1f\n3. **\u5206\u6790\u56e0\u679c\u94fe** \u2014 \u4e8b\u4ef6 \u2192 \u884c\u4e1a\u5f71\u54cd \u2192 \u5177\u4f53\u6301\u4ed3\u5f71\u54cd\uff08\u6b63\u5411/\u8d1f\u5411/\u4e2d\u6027\uff09\n4. **\u8bc4\u4f30\u65f6\u6548\u6027** \u2014 \u8fd9\u662f\u521a\u521a\u53d1\u751f\u7684\u8fd8\u662f\u65e7\u95fb\uff1fcontent \u4e2d\u662f\u5426\u6709\u65b0\u4fe1\u606f\uff1f\n\n**\u7b2c\u4e09\u6b65\uff1a\u53d1\u9001\u5206\u6790\u62a5\u544a**\n\u5bf9\u6bcf\u4e2a **\u503c\u5f97\u62a5\u544a** \u7684\u4e8b\u4ef6\uff08CRITICAL/HIGH \u5730\u7f18\u653f\u6cbb\u3001\u76c8\u5229\u8d85\u9884\u671f\u3001\u91cd\u5927\u516c\u53f8\u884c\u52a8\u3001\u5173\u952e\u5b8f\u89c2\u4e8b\u4ef6\uff09\uff0c\u4f7f\u7528 `send_message` \u53d1\u9001\u72ec\u7acb\u6d88\u606f\u5230 `discord:#portfolio-alerts`\u3002\n\n**\u6d88\u606f\u683c\u5f0f\uff08\u6bcf\u4e2a\u4e8b\u4ef6\u4e00\u6761\u72ec\u7acb\u6d88\u606f\uff09\uff1a**\n```\n\ud83c\udf0d **\u5730\u7f18\u653f\u6cbb\u98ce\u9669** | {time} HKT\n\ud83d\udccc **{\u6807\u9898}**\n\n\ud83d\udcdd **\u5206\u6790\uff1a**\n\u57fa\u4e8e\u65b0\u95fb\u5168\u6587\u5206\u6790\uff1a\n- \u6838\u5fc3\u4e8b\u4ef6\uff1a\uff08\u4e00\u53e5\u8bdd\u6982\u62ec\u53d1\u751f\u4e86\u4ec0\u4e48\uff09\n- \u56e0\u679c\u94fe\uff1a\uff08\u4e8b\u4ef6 \u2192 \u884c\u4e1a \u2192 \u6301\u4ed3\u7684\u5177\u4f53\u4f20\u5bfc\u8def\u5f84\uff09\n- \u76f8\u5173\u6301\u4ed3\uff1a\uff08\u5217\u51fa\u76f4\u63a5\u53d7\u5f71\u54cd\u7684\u80a1\u7968\uff09\n- \u5efa\u8bae\u5173\u6ce8\uff1a\uff08\u9700\u8981\u91c7\u53d6\u4ec0\u4e48\u884c\u52a8\u6216\u89c2\u5bdf\u4ec0\u4e48\u6307\u6807\uff09\n\n\ud83d\udd17 **\u6765\u6e90\uff1a** {source}\n\ud83d\udd50 \u53d1\u5e03\u65f6\u95f4\uff1a{time}\n```\n\n**\u89c4\u5219\uff1a**\n- \u6bcf\u4e2a\u4e8b\u4ef6\u4e00\u6761\u72ec\u7acb\u6d88\u606f\uff0c\u4e0d\u8981\u5408\u5e76\n- \u5fc5\u987b\u57fa\u4e8e content \u5b57\u6bb5\u505a\u5206\u6790\uff0c\u4e0d\u80fd\u53ea\u770b\u6807\u9898\n- CRITICAL \u4e8b\u4ef6\u5fc5\u987b\u62a5\u544a\n- \u5e38\u89c4/\u4f4e\u5f71\u54cd\u4e8b\u4ef6\u53ef\u4ee5\u8df3\u8fc7\n- \u5982\u679c PENDING_EVENTS_COUNT: 0 \u6216 NO_MATERIAL_EVENTS\uff0c\u8f93\u51fa \"[DELIVERED] \u65e0\u503c\u5f97\u5173\u6ce8\u7684\u4e8b\u4ef6\"\n- \u6240\u6709\u5206\u6790\u7528\u4e2d\u6587",
+      "skills": [],
+      "skill": null,
+      "model": "kimi-k2.5",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 9-23 * * 1-5",
+        "display": "*/30 9-23 * * 1-5"
+      },
+      "schedule_display": "*/30 9-23 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 26
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T15:43:56.151809+08:00",
+      "next_run_at": "2026-05-12T14:30:00+08:00",
+      "last_run_at": "2026-05-12T14:06:01.295204+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503293173328515122",
+        "chat_name": "Orange's Workspace / #market-intelligence / Checking Cron Jobs for Market News Tracker",
+        "thread_id": "1503293173328515122"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "messaging"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "dcad398bcd8d",
+      "name": "macro-calendar-alert",
+      "prompt": "\u4f60\u662fOrange\u7684\u5b8f\u89c2\u7ecf\u6d4e\u65e5\u5386\u5206\u6790\u5e08\u3002\u6309\u4ee5\u4e0b\u6b65\u9aa4\u8fd0\u884c\uff1a\n\n**\u7b2c\u4e00\u6b65\uff1a\u8fd0\u884c\u811a\u672c**\n```bash\ncd ~/.hermes && /opt/homebrew/bin/python3 scripts/macro_calendar.py\n```\n\n**\u7b2c\u4e8c\u6b65\uff1a\u5206\u6790\u8f93\u51fa**\n1. \u68c0\u67e5\u811a\u672c\u8f93\u51fa\u4e2d\u7684\"\u4eca\u65e5\u4e8b\u4ef6\"\u90e8\u5206\n2. \u5982\u679c\"\u4eca\u65e5\u7121\u91cd\u5927\u7d93\u6fdf\u6578\u64da\u767c\u5e03\" \u2192 \u8f93\u51fa `[SILENT]` \u5e76\u505c\u6b62\n3. \u5982\u679c\u6709\u4eca\u65e5\u4e8b\u4ef6 \u2192 \u7528**\u7b80\u4f53\u4e2d\u6587**\u751f\u6210\u63d0\u9192\n\n**\u5bf9\u4e8e\u6bcf\u4e2a\u4eca\u65e5\u4e8b\u4ef6\uff1a**\n- \u68c0\u67e5\u662f\u5426\u5728\u672a\u67652\u5c0f\u65f6\u5185\u53d1\u5e03\uff08\u6bd4\u8f83 time_hkt \u4e0e\u5f53\u524dHKT\u65f6\u95f4\uff09\n- \u5982\u679c\u662f\u5373\u5c06\u53d1\u5e03\u7684\u4e8b\u4ef6\uff0c\u751f\u6210\u63d0\u9192\n- \u901a\u8fc7 `web_search` \u83b7\u53d6\u8be5\u4e8b\u4ef6\u7684 latest consensus/\u9884\u671f\u503c\n\n**\u8f93\u51fa\u683c\u5f0f\uff08\u4ec5\u5bf9\u5373\u5c06\u53d1\u5e03\u7684\u4e8b\u4ef6\uff09\uff1a**\n```\n\u23f0 \u7ecf\u6d4e\u6570\u636e\u5373\u5c06\u53d1\u5e03 | [HH:MM HKT]\n\n\ud83d\udcca [\u4e8b\u4ef6\u540d\u79f0] \u2014 [\u65f6\u95f4]\n   \u5e02\u573a: [US/CN/HK]\n   \u91cd\u8981\u6027: [High/Medium]\n   \u524d\u503c: [previous]\n   \u9884\u671f: [consensus] (\u5982web_search\u627e\u5230\u66f4\u65b0\u7684\u9884\u671f\u503c\u5219\u4f7f\u7528)\n   \n   \u5bf9\u7ec4\u5408\u7684\u5f71\u54cd: [1-2\u53e5\u5206\u6790\u5bf9\u4f60\u768431\u4e2a\u6301\u4ed3\u53ef\u80fd\u7684\u5f71\u54cd]\n\n\u23f3 \u4e0b\u6b21\u5173\u6ce8: [\u4e0b\u4e00\u4e2a\u9ad8\u5f71\u54cd\u4e8b\u4ef6]\n```\n\n**\u5173\u952e\u89c4\u5219\uff1a**\n- \u53ea\u5728\u6709\u5373\u5c06\u53d1\u5e03\uff082\u5c0f\u65f6\u5185\uff09\u7684\u9ad8\u5f71\u54cd\u4e8b\u4ef6\u65f6\u624d\u53d1\u9001\n- \u5426\u5219\u8f93\u51fa `[SILENT]`\n- \u91cd\u70b9\u5173\u6ce8\uff1aFOMC\u3001NFP\u3001CPI\u3001\u4e2d\u56fdPMI\u3001LPR\n- \u4f60\u7684\u7ec4\u5408\u6301\u4ed3\u8986\u76d6\uff1a\u7f8e\u80a1\u5b58\u50a8\u534a\u5bfc\u4f53(SNDK/MU/AMD/LITE)\u3001\u6e2f\u80a1(7709.HK/6869.HK/1888.HK\u7b49)\u3001A\u80a1(002353.SZ/300308.SZ\u7b49)\n\n**\u7ec4\u5408\u6301\u4ed3\u53c2\u8003\uff1a**\n- US: SNDK, MU, AMD, LITE\n- HK: 7709.HK, 6869.HK, 1888.HK, 2513.HK, 3200.HK, 3858.HK, 2259.HK\n- A\u80a1: 002353.SZ, 300308.SZ, 300502.SZ, 600176.SH, 688808.SH, 002384.SZ, 300476.SZ, 600183.SH, 600183.SH, 603268.SH, 300750.SZ, 600482.SH, 002028.SZ, 688700.SH, 300438.SZ, 300136.SZ",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8,10,12,14,16,20,22 * * 1-5",
+        "display": "0 8,10,12,14,16,20,22 * * 1-5"
+      },
+      "schedule_display": "0 8,10,12,14,16,20,22 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T17:12:21.597704+08:00",
+      "next_run_at": "2026-05-12T16:00:00+08:00",
+      "last_run_at": "2026-05-12T14:07:26.442208+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1502241038579011655",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503319255351824385",
+        "chat_name": "Orange's Workspace / #portfolio-alerts / Portfolio News Monitoring Overview",
+        "thread_id": "1503319255351824385"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "web"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "c9e671abe2cd",
+      "name": "daily-hermes-improvement",
+      "prompt": "## Daily Hermes Agent Self-Improvement\n\nYou are Orange's autonomous self-improvement agent. Your job: **identify and implement ONE concrete improvement to Hermes Agent daily.**\n\n### Step 1: Run the rotation script\n```bash\ncd ~/.hermes && bash scripts/daily-improvement-rotate.sh\n```\n\nThe script outputs either:\n- `\u26a1 PATTERN-DRIVEN TASK [priority]: task_name` \u2014 an implementable suggestion from pattern analysis\n- `\ud83d\udccb ROTATION TOPIC #N/15: topic_name` \u2014 a fallback research topic\n\n### Step 2: Execute based on output type\n\n**If PATTERN-DRIVEN TASK (\u26a1):**\n1. Read the trigger, task, and hint from the script output\n2. **IMPLEMENT IT DIRECTLY** \u2014 don't just research, actually make the change\n3. Examples of implementation actions:\n   - Create/update a skill with new pitfalls or procedures\n   - Patch AGENTS.md with improved protocols\n   - Fix a broken script or add error handling\n   - Create a new wrapper script or optimization\n   - Update a cron job configuration\n4. Verify the change works (run the relevant test/command)\n5. Report: what you changed, why, and how to verify\n\n**If ROTATION TOPIC (\ud83d\udccb):**\n1. Research the topic thoroughly using web_search + local file analysis\n2. Identify the best actionable improvement\n3. Implement it if possible, or provide a detailed implementation plan\n4. Save findings to SwarmVault for future reference\n\n### Constraints\n- Make exactly ONE meaningful change \u2014 don't over-engineer\n- Prefer patching existing skills/scripts over creating new ones\n- Always verify your change works before reporting done\n- If the change is risky (affects core config), describe it and ask for approval\n- Use plan-first workflow for medium/complex changes: load `writing-plans` skill\n\n### Anti-patterns\n- \u274c Just researching without implementing\n- \u274c Making cosmetic changes (renaming, reformatting)\n- \u274c Breaking existing functionality\n- \u274c Making changes that require user intervention to activate\n\nReport your improvement in 3-5 bullet points: what, why, how to verify.",
+      "skills": [],
+      "skill": null,
+      "model": "qwen3.6-plus",
+      "provider": "alibaba-coding-plan",
+      "base_url": null,
+      "script": "daily-improvement-rotate.sh",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "display": "0 0 * * *"
+      },
+      "schedule_display": "0 0 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-11T21:01:37.616703+08:00",
+      "next_run_at": "2026-05-13T00:00:00+08:00",
+      "last_run_at": "2026-05-12T00:07:18.517152+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord:1503381387942695123",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503380674797899776",
+        "chat_name": "Orange's Workspace / #research / Automated Daily Hermes Agent Improvements",
+        "thread_id": "1503380674797899776"
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal",
+        "file",
+        "skills",
+        "cronjob"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "f4c4e25ad720",
+      "name": "volatility-updater",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "volatility_updater.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 1-5",
+        "display": "0 8 * * 1-5"
+      },
+      "schedule_display": "0 8 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-12T00:02:55.810508+08:00",
+      "next_run_at": "2026-05-13T08:00:00+08:00",
+      "last_run_at": "2026-05-12T08:07:15.190412+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1502241038579011655",
+        "chat_name": "Orange's Workspace / #portfolio-alerts",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/Users/zichengliao/.hermes/scripts"
+    },
+    {
+      "id": "98f91276f9f3",
+      "name": "guba-rumor-monitor",
+      "prompt": "Run the Guba rumor monitor to track retail sentiment for portfolio A-shares.\n\nSTEP 1: Run `python3 ~/.hermes/scripts/guba_rumor_monitor.py` to get attention index data.\n\nSTEP 2: For any stocks with \u5173\u6ce8\u6307\u6570 > 85 AND positive rank change (\u6392\u540d\u53d8\u5316 > 0), scrape their \u80a1\u5427 hot posts:\n- Navigate to `https://guba.eastmoney.com/list,{STOCK_CODE},99.html`\n- Wait 3 seconds for page load\n- Use browser_console to extract posts:\n  ```javascript\n  (() => {\n    const rows = document.querySelectorAll('table tbody tr');\n    const posts = [];\n    rows.forEach(row => {\n      const cells = row.querySelectorAll('td');\n      if (cells.length >= 5) {\n        const titleEl = cells[2]?.querySelector('a');\n        if (titleEl && titleEl.textContent.trim().length > 5) {\n          posts.push({\n            reads: parseInt(cells[0]?.textContent?.trim() || '0'),\n            comments: parseInt(cells[1]?.textContent?.trim() || '0'),\n            title: titleEl.textContent.trim(),\n            author: cells[3]?.textContent?.trim() || '',\n            time: cells[4]?.textContent?.trim() || ''\n          });\n        }\n      }\n    });\n    return JSON.stringify(posts.slice(0, 5));\n  })()\n  ```\n- Score each post for rumor keywords (\u4f20\u95fb, \u636e\u4f20, \u672a\u8bc1\u5b9e, \u7206\u6599, \u5185\u90e8\u6d88\u606f, \u636e\u8bf4, \u7f51\u4f20, \u72ec\u5bb6, \u7a81\u53d1, \u91cd\u78c5, \u8d85\u9884\u671f, \u5927\u8ba2\u5355, \u91cd\u5927\u5408\u540c, \u6536\u8d2d, \u91cd\u7ec4, \u6280\u672f\u7a81\u7834, 2.4T, 800G, 1.6T)\n- If any post has reads > 500 or comments > 10 AND contains a rumor keyword, include it in the alert\n\nSTEP 3: Output alerts in this format:\n- \ud83d\udcc8 \u5173\u6ce8\u6307\u6570\u98d9\u5347: Stock, attention change, rank change, price\n- \ud83d\udd25 \u9ad8\u5173\u6ce8\u5ea6 + \ud83d\udccc \u70ed\u95e8\u4f20\u95fb: Stock, attention, top rumor post title, engagement metrics\n\nOnly output if there are alerts. Stay silent if no significant activity.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3,7,9 * * *",
+        "display": "0 3,7,9 * * *"
+      },
+      "schedule_display": "0 3,7,9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-12T13:31:23.083230+08:00",
+      "next_run_at": "2026-05-13T03:00:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1503591364388982814",
+        "chat_name": "Orange's Workspace / #portfolio-alerts / Eastmoney Guba Hot Posts Feature Request",
+        "thread_id": "1503591364388982814"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "browser",
+        "web"
+      ],
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-05-12T14:19:47.431862+08:00"
+}

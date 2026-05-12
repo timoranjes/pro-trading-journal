@@ -1,0 +1,594 @@
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-04 22:18:50  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-04 22:18:50 ==================================================
+2026-05-04 22:18:50    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-04 22:18:50    Initializing market data...
+2026-05-04 22:18:51    Initialized 32 stocks successfully.
+2026-05-04 22:18:51    Loaded progressive state for 26 stocks (8 active alerts)
+2026-05-04 22:18:51 Starting unified polling loop (3s interval)...
+2026-05-04 22:18:51 Monitor threads started
+2026-05-04 22:25:38   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 22:35:52   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:23:54   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:25:09   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:26:54   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:28:30   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:32:51   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:34:22   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:34:38   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:35:27   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:36:27   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:36:40   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-04 23:49:52   Polling error: HTTPConnectionPool(host='127.0.0.1', port=10808): Read timed out. (read timeout=10)
+2026-05-07 18:40:54  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 18:40:54 ==================================================
+2026-05-07 18:40:54    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 18:40:54    Initializing market data...
+26.1.7.60050
+Wind.Cosmos.Base V1.8 compiled time is Sep 28 2025, BuildType:Release, CPUArch:X64, GCC Version:Apple LLVM 13.0.0 (clang-1300.0.29.30)
+Welcome to use Wind Quant API for Python (WindPy)!
+
+COPYRIGHT (C) 2021 WIND INFORMATION CO., LTD. ALL RIGHTS RESERVED.
+IN NO CIRCUMSTANCE SHALL WIND BE RESPONSIBLE FOR ANY DAMAGES OR LOSSES CAUSED BY USING WIND QUANT API FOR Python.
+2026-05-07 18:41:08    Wind API connected (primary data source)
+2026-05-07 18:41:08    Wind subscription started (RequestID=2)
+2026-05-07 18:41:10    Initialized 27 stocks via Wind (subscription + polling)
+2026-05-07 18:41:10    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 18:41:10 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 18:41:10 Monitor threads started
+2026-05-07 18:42:04    Wind fetch error: list index out of range
+2026-05-07 19:02:10    Wind fetch error: list index out of range
+2026-05-07 20:07:36  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 20:07:36 ==================================================
+2026-05-07 20:07:36    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 20:07:36    Initializing market data...
+2026-05-07 21:25:20  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:25:20 ==================================================
+2026-05-07 21:25:20    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:25:20    Initializing market data...
+2026-05-07 21:25:24  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:25:24 ==================================================
+2026-05-07 21:25:24    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:25:24    Initializing market data...
+2026-05-07 21:27:26  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:27:26 ==================================================
+2026-05-07 21:27:26    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:27:26    Initializing market data...
+2026-05-07 21:28:50  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:28:50 ==================================================
+2026-05-07 21:28:50    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:28:50    Initializing market data...
+2026-05-07 21:29:26  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:29:26 ==================================================
+2026-05-07 21:29:26    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:29:26    Initializing market data...
+2026-05-07 21:30:35  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:30:35 ==================================================
+2026-05-07 21:30:35    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:30:35    Initializing market data...
+2026-05-07 21:30:51    Wind API start() timed out after 15s — skipping Wind
+2026-05-07 21:30:51    Falling back to Sina...
+2026-05-07 21:30:51    Initialized 27 stocks via Sina (fallback)
+2026-05-07 21:30:51    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:30:51 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 21:30:51 Monitor threads started
+2026-05-07 21:31:14  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:31:14 ==================================================
+2026-05-07 21:31:14    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:31:14    Initializing market data...
+2026-05-07 21:31:29    Wind API start() timed out after 15s — skipping Wind
+2026-05-07 21:31:29    Falling back to Sina...
+2026-05-07 21:31:30    Initialized 27 stocks via Sina (fallback)
+2026-05-07 21:31:30    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:31:30 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 21:31:30 Monitor threads started
+2026-05-07 21:31:38  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:31:38 ==================================================
+2026-05-07 21:31:38    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:31:38    Initializing market data...
+2026-05-07 21:31:53    Wind API start() timed out after 15s — skipping Wind
+2026-05-07 21:31:53    Falling back to Sina...
+2026-05-07 21:31:53    Initialized 27 stocks via Sina (fallback)
+2026-05-07 21:31:53    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:31:53 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 21:31:53 Monitor threads started
+2026-05-07 21:34:43  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:34:43 ==================================================
+2026-05-07 21:34:43    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:34:43    Initializing market data...
+2026-05-07 21:34:58    Wind API start() timed out after 15s — skipping Wind
+2026-05-07 21:34:58    Falling back to Sina...
+2026-05-07 21:34:59    Initialized 27 stocks via Sina (fallback)
+2026-05-07 21:34:59    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:34:59 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 21:34:59 Monitor threads started
+2026-05-07 21:35:20  Portfolio Monitor v4 (Sina Polling + Progressive Levels + Chinese)
+2026-05-07 21:35:20 ==================================================
+2026-05-07 21:35:20    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 US stocks
+2026-05-07 21:35:20    Initializing market data...
+2026-05-07 21:35:35    Wind API start() timed out after 15s — skipping Wind
+2026-05-07 21:35:35    Falling back to Sina...
+2026-05-07 21:35:36    Initialized 27 stocks via Sina (fallback)
+2026-05-07 21:35:36    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:35:36 Starting hybrid polling loop (subscription + 3s polling)...
+2026-05-07 21:35:36 Monitor threads started
+2026-05-07 21:55:57  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 21:55:57 ==================================================
+2026-05-07 21:55:57    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 21:55:57    Initializing market data via Sina...
+2026-05-07 21:55:57    Initialized 27 stocks via Sina
+2026-05-07 21:55:57    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 21:55:57 Starting polling loop (Sina, 3s interval)...
+2026-05-07 21:55:57 Polling thread started
+2026-05-07 22:00:40   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Read timed out. (read timeout=10)
+2026-05-07 22:00:51   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:00:54   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:00:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:03   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:06   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:09   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:13   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:19   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:25   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:28   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:31   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:34   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:37   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:40   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:43   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:46   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:49   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:52   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:56   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:01:59   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:02   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:05   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:08   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:11   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:14   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:17   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:20   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:23   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:26   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:29   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:32   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:36   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:39   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:42   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:45   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:48   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:51   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:54   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:02:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:03   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:06   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:09   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:12   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:19   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:25   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:28   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:31   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:34   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:37   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:40   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:43   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:46   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:49   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:52   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:56   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:03:59   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:02   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:05   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:08   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:11   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:14   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:17   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:20   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:23   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:26   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:30   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:33   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:36   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:39   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:42   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:45   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:48   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:51   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:54   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:04:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:04   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:07   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:10   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:13   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:19   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:25   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:28   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:31   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:34   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:37   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:40   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:44   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:47   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:50   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:53   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:56   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:05:59   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:06:02   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:06:05   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:06:08   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:06:11   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:06:14   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-07 22:35:43  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 22:35:43 ==================================================
+2026-05-07 22:35:43    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 22:35:43    Initializing market data via Sina...
+2026-05-07 22:35:43    Initialized 27 stocks via Sina
+2026-05-07 22:35:43    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 22:35:43 Starting polling loop (Sina, 3s interval)...
+2026-05-07 22:35:43 Polling thread started
+2026-05-07 23:00:13  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 23:00:13 ==================================================
+2026-05-07 23:00:13    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 23:00:13    Initializing market data via Sina...
+2026-05-07 23:00:13    Initialized 27 stocks via Sina
+2026-05-07 23:00:13    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 23:00:13 Starting polling loop (Sina, 3s interval)...
+2026-05-07 23:00:13 Polling thread started
+2026-05-07 23:05:45  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 23:05:45 ==================================================
+2026-05-07 23:05:45    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 23:05:45    Initializing market data via Sina...
+2026-05-07 23:05:45    Initialized 27 stocks via Sina
+2026-05-07 23:05:45    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 23:05:45 Starting polling loop (Sina, 3s interval)...
+2026-05-07 23:05:45 Polling thread started
+2026-05-07 23:10:14  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 23:10:14 ==================================================
+2026-05-07 23:10:14    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 23:10:14    Initializing market data via Sina...
+2026-05-07 23:10:14    Initialized 27 stocks via Sina
+2026-05-07 23:10:14    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 23:10:14 Starting polling loop (Sina, 3s interval)...
+2026-05-07 23:10:14 Polling thread started
+2026-05-07 23:16:01  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-07 23:16:01 ==================================================
+2026-05-07 23:16:01    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-07 23:16:01    Initializing market data via Sina...
+2026-05-07 23:16:01    Initialized 27 stocks via Sina
+2026-05-07 23:16:01    Loaded progressive state for 24 stocks (6 active alerts)
+2026-05-07 23:16:01 Starting polling loop (Sina, 3s interval)...
+2026-05-07 23:16:01 Polling thread started
+2026-05-08 00:00:27  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 00:00:27 ==================================================
+2026-05-08 00:00:27    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 00:00:27    Initializing market data via Sina...
+2026-05-08 00:00:28    Initialized 27 stocks via Sina
+2026-05-08 00:00:28 Starting polling loop (Sina, 3s interval)...
+2026-05-08 00:00:28 Polling thread started
+2026-05-08 02:45:49  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 02:45:49 ==================================================
+2026-05-08 02:45:49    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 02:45:49    Initializing market data via Sina...
+2026-05-08 02:45:49    Initialized 27 stocks via Sina
+2026-05-08 02:45:49 Starting polling loop (Sina, 3s interval)...
+2026-05-08 02:45:49 Polling thread started
+2026-05-08 03:35:14  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 03:35:14 ==================================================
+2026-05-08 03:35:14    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 03:35:14    Initializing market data via Sina...
+2026-05-08 03:35:14    Initialized 27 stocks via Sina
+2026-05-08 03:35:14 Starting polling loop (Sina, 3s interval)...
+2026-05-08 03:35:14 Polling thread started
+2026-05-08 04:30:47  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 04:30:47 ==================================================
+2026-05-08 04:30:47    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 04:30:47    Initializing market data via Sina...
+2026-05-08 04:30:47    Initialized 27 stocks via Sina
+2026-05-08 04:30:47 Starting polling loop (Sina, 3s interval)...
+2026-05-08 04:30:47 Polling thread started
+2026-05-08 05:20:17  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 05:20:17 ==================================================
+2026-05-08 05:20:17    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 05:20:17    Initializing market data via Sina...
+2026-05-08 05:20:17    Initialized 27 stocks via Sina
+2026-05-08 05:20:17 Starting polling loop (Sina, 3s interval)...
+2026-05-08 05:20:17 Polling thread started
+2026-05-08 06:50:13  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 06:50:13 ==================================================
+2026-05-08 06:50:13    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 06:50:13    Initializing market data via Sina...
+2026-05-08 06:50:13    Initialized 27 stocks via Sina
+2026-05-08 06:50:13 Starting polling loop (Sina, 3s interval)...
+2026-05-08 06:50:13 Polling thread started
+2026-05-08 07:15:13  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 07:15:13 ==================================================
+2026-05-08 07:15:13    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 07:15:13    Initializing market data via Sina...
+2026-05-08 07:15:13    Initialized 27 stocks via Sina
+2026-05-08 07:15:13 Starting polling loop (Sina, 3s interval)...
+2026-05-08 07:15:13 Polling thread started
+  File "/Users/zichengliao/.hermes/scripts/portfolio_monitor.py", line 634
+    global session
+    ^
+SyntaxError: name 'session' is used prior to global declaration
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 07:19:55  Portfolio Monitor v5.0 (Sina Polling + Progressive Levels)
+2026-05-08 07:19:55 ==================================================
+2026-05-08 07:19:55    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 07:19:55    Initializing market data via Sina...
+2026-05-08 07:19:55    Initialized 27 stocks via Sina
+2026-05-08 07:19:55 Starting polling loop (Sina, 3s interval)...
+2026-05-08 07:19:55 Polling thread started
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 07:20:32  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 07:20:32 ==================================================
+2026-05-08 07:20:32    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 07:20:32    Initializing market data via Sina...
+2026-05-08 07:20:32    Initialized 27 stocks via Sina
+2026-05-08 07:20:32 Starting polling loop (Sina, 3s interval)...
+2026-05-08 07:20:32 Polling thread started
+2026-05-08 08:09:30  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:09:30 ==================================================
+2026-05-08 08:09:30    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:09:30    Initializing market data via Sina...
+2026-05-08 08:09:30    Initialized 27 stocks via Sina
+2026-05-08 08:09:30 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:09:30 Polling thread started
+2026-05-08 08:10:41  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:10:41 ==================================================
+2026-05-08 08:10:41    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:10:41    Initializing market data via Sina...
+2026-05-08 08:10:41    Initialized 27 stocks via Sina
+2026-05-08 08:10:41 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:10:41 Polling thread started
+2026-05-08 08:15:07  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:15:07 ==================================================
+2026-05-08 08:15:07    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:15:07    Initializing market data via Sina...
+2026-05-08 08:15:07    Initialized 27 stocks via Sina
+2026-05-08 08:15:07 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:15:07 Polling thread started
+2026-05-08 08:20:33  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:20:33 ==================================================
+2026-05-08 08:20:33    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:20:33    Initializing market data via Sina...
+2026-05-08 08:20:33    Initialized 27 stocks via Sina
+2026-05-08 08:20:33 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:20:33 Polling thread started
+2026-05-08 08:23:22   Periodic session reset (connection pool cleanup)
+2026-05-08 08:23:57   Periodic session reset (connection pool cleanup)
+2026-05-08 08:26:10  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:26:10 ==================================================
+2026-05-08 08:26:10    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:26:10    Initializing market data via Sina...
+2026-05-08 08:26:10    Initialized 27 stocks via Sina
+2026-05-08 08:26:10 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:26:10 Polling thread started
+2026-05-08 08:33:07  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:33:07 ==================================================
+2026-05-08 08:33:07    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:33:07    Initializing market data via Sina...
+2026-05-08 08:33:07    Initialized 27 stocks via Sina
+2026-05-08 08:33:07 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:33:07 Polling thread started
+2026-05-08 08:35:22  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 08:35:22 ==================================================
+2026-05-08 08:35:22    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 08:35:22    Initializing market data via Sina...
+2026-05-08 08:35:22    Initialized 27 stocks via Sina
+2026-05-08 08:35:22 Starting polling loop (Sina, 3s interval)...
+2026-05-08 08:35:22 Polling thread started
+2026-05-08 09:38:55   Periodic session reset (connection pool cleanup)
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 10:15:11  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 10:15:11 ==================================================
+2026-05-08 10:15:11    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 10:15:11    Initializing market data via Sina...
+2026-05-08 10:15:11    Initialized 27 stocks via Sina
+2026-05-08 10:15:11 Starting polling loop (Sina, 3s interval)...
+2026-05-08 10:15:11 Polling thread started
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 10:15:55  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 10:15:55 ==================================================
+2026-05-08 10:15:55    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 10:15:55    Initializing market data via Sina...
+2026-05-08 10:15:55    Initialized 27 stocks via Sina
+2026-05-08 10:15:55 Starting polling loop (Sina, 3s interval)...
+2026-05-08 10:15:55 Polling thread started
+2026-05-08 11:19:05   Periodic session reset (connection pool cleanup)
+2026-05-08 12:22:42   Periodic session reset (connection pool cleanup)
+2026-05-08 13:20:47   [Attribution] Fetching for 6869 (长飞光纤光缆) +7.1%
+2026-05-08 13:20:50   [Attribution] Found 0 articles
+2026-05-08 13:20:50   [Attribution] No news articles found - skipping attribution
+2026-05-08 13:20:51   Alert sent: 📈 **[LEVEL 1] 6869.HK** (长飞光纤光缆) 触发预警\n现价：249.400\n涨跌幅：+7.13...
+2026-05-08 13:20:51    Triggered 1 alerts!
+2026-05-08 13:26:14   Periodic session reset (connection pool cleanup)
+2026-05-08 13:57:24  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 13:57:24 ==================================================
+2026-05-08 13:57:24    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 13:57:24    Initializing market data via Sina...
+2026-05-08 13:57:24    Initialized 27 stocks via Sina
+2026-05-08 13:57:24    Loaded progressive state for 24 stocks (2 active alerts)
+2026-05-08 13:57:24 Starting polling loop (Sina, 3s interval)...
+2026-05-08 13:57:24 Polling thread started
+2026-05-08 14:30:29  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 14:30:29 ==================================================
+2026-05-08 14:30:29    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 14:30:29    Initializing market data via Sina...
+2026-05-08 14:30:29    Initialized 27 stocks via Sina
+2026-05-08 14:30:29    Loaded progressive state for 24 stocks (2 active alerts)
+2026-05-08 14:30:29 Starting polling loop (Sina, 3s interval)...
+2026-05-08 14:30:29 Polling thread started
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-08 14:41:41  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-08 14:41:41 ==================================================
+2026-05-08 14:41:41    Loaded position weights for 27 stocks (avg_weight=0.0370)
+   Loaded volatility data for 26 stocks
+2026-05-08 14:41:41    Initializing market data via Sina...
+2026-05-08 14:41:41    Initialized 27 stocks via Sina
+2026-05-08 14:41:41    Loaded progressive state for 24 stocks (2 active alerts)
+2026-05-08 14:41:41 Starting polling loop (Sina, 3s interval)...
+2026-05-08 14:41:41 Polling thread started
+2026-05-08 15:44:47   Periodic session reset (connection pool cleanup)
+2026-05-08 16:48:02   Periodic session reset (connection pool cleanup)
+2026-05-08 17:51:11   Periodic session reset (connection pool cleanup)
+2026-05-08 17:56:15   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Read timed out. (read timeout=10)
+2026-05-08 17:56:37   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:57:10   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:57:43   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:26   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:29   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:32   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:35   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:38   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:41   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:44   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:48   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:51   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:54   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:58:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:03   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:06   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:10   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:13   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:19   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:25   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:28   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:32   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:35   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:38   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:41   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:44   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:47   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:51   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:54   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 17:59:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:03   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:06   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:09   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:13   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:16   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:19   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:22   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:25   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:28   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:31   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:35   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:38   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:41   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:44   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:47   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:50   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:53   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:00:57   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:01:00   Polling error: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Max retries exceeded with url: /list=gb_sndk,gb_mu,gb_lite,rt_hk06869,rt_hk07709,rt_hk01888,rt_hk03200,rt_hk03393,rt_hk02513,rt_hk03858,rt_hk02259,sz002353,sz300308,sz300502,sh600176,sz300750,sz002384,sh601138,sz300476,sz002028,sh600183,sh603268,sh600482,sh688700,sz300136,sh688808,sz300438 (Caused by NameResolutionError("HTTPConnection(host='hq.sinajs.cn', port=80): Failed to resolve 'hq.sinajs.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-05-08 18:56:49   Periodic session reset (connection pool cleanup)
+2026-05-08 20:00:07   Periodic session reset (connection pool cleanup)
+2026-05-08 21:03:25   Periodic session reset (connection pool cleanup)
+2026-05-08 21:32:22   [Attribution] Fetching for MU (美光) +7.2%
+2026-05-08 21:32:24   [Attribution] Found 10 articles
+  [attribution] kimi-k2.5 exception: HTTPSConnectionPool(host='coding.dashscope.aliyuncs.com', port=443): Read timed out. (read timeout=20)
+  [attribution] qwen-plus error 400
+2026-05-08 21:32:47   [Attribution] LLM analysis returned None - skipping attribution
+2026-05-08 21:32:48   Discord API error: 404
+2026-05-08 21:32:48    Triggered 1 alerts!
+2026-05-08 21:45:55   [Attribution] Fetching for SNDK (闪迪) +7.3%
+2026-05-08 21:45:58   [Attribution] Found 10 articles
+2026-05-08 21:46:03   [Attribution] Success - generated attribution text
+2026-05-08 21:46:04   Discord API error: 404
+2026-05-08 21:46:04    Triggered 1 alerts!
+2026-05-08 22:07:15   Periodic session reset (connection pool cleanup)
+2026-05-08 23:10:33   Periodic session reset (connection pool cleanup)
+2026-05-10 00:15:58  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-10 00:15:58 ==================================================
+   Loaded volatility data for 26 stocks
+2026-05-10 00:15:58    Initializing market data via Sina...
+2026-05-10 00:15:58    Initialized 25 stocks via Sina
+2026-05-10 00:15:58 Starting polling loop (Sina, 3s interval)...
+2026-05-10 00:15:58 Polling thread started
+2026-05-10 00:20:16  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-10 00:20:16 ==================================================
+   Loaded volatility data for 26 stocks
+2026-05-10 00:20:16    Initializing market data via Sina...
+2026-05-10 00:20:16    Initialized 25 stocks via Sina
+2026-05-10 00:20:16 Starting polling loop (Sina, 3s interval)...
+2026-05-10 00:20:16 Polling thread started
+/Users/zichengliao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-11 15:20:50  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-11 15:20:50 ==================================================
+2026-05-11 15:20:50    Loaded position weights for 26 stocks (avg_weight=0.0385)
+   Loaded volatility data for 26 stocks
+2026-05-11 15:20:50    Initializing market data via Sina...
+2026-05-11 15:20:50    Initialized 26 stocks via Sina
+2026-05-11 15:20:50 Starting polling loop (Sina, 3s interval)...
+2026-05-11 15:20:50 Polling thread started
+2026-05-11 15:21:10  Portfolio Monitor v5.1 (Sina Polling + Thread Self-Heal)
+2026-05-11 15:21:10 ==================================================
+2026-05-11 15:21:10    Loaded position weights for 26 stocks (avg_weight=0.0385)
+   Loaded volatility data for 26 stocks
+2026-05-11 15:21:10    Initializing market data via Sina...
+2026-05-11 15:21:10    Initialized 26 stocks via Sina
+2026-05-11 15:21:10    Loaded progressive state for 7 stocks (1 active alerts)
+2026-05-11 15:21:10 Starting polling loop (Sina, 3s interval)...
+2026-05-11 15:21:10 Polling thread started
