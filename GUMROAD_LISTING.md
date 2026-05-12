@@ -1,117 +1,45 @@
-# GUMROAD LISTING — Pro Trading Journal
-# ============================================================
-# Copy-paste each section into your Gumroad product page at:
-# https://app.gumroad.com/products/new
-# ============================================================
+# Gumroad Listing Copy — Pro Trading Journal
 
-PRODUCT_NAME:
-Pro Trading Journal — Built by a Hedge Fund Trader
+## Title
+Pro Trading Journal — Track, Analyze & Improve Every Trade
 
-DESCRIPTION:
-A professional-grade trading journal spreadsheet — built by someone who actually trades, not a template designer.
+## Description
+Stop logging trades in messy spreadsheets. This is a complete, professional-grade trading journal built in Google Sheets — with 20 trade fields, 50+ auto-calculating formulas, and a real-time performance dashboard.
 
-Track every trade across US, HK, A-share, FX, and crypto markets. Auto-calculate your win rate, profit factor, R-multiple, and identify which setups actually make you money.
+**What you get:**
+📋 **Trade Log** — 20 fields per trade: date, market, symbol, entry/exit, stop loss, position size, commission, and more. Plus auto-calculated P&L ($/%), R Multiple, and holding time.
+📊 **Performance Dashboard** — 8 KPI cards (Win Rate, Total P&L, Profit Factor, Avg R Multiple, Best/Worst Trade), breakdowns by market (US/HK/FX/Crypto) and strategy, plus Win/Loss summary.
+📈 **Analytics** — Monthly performance trends, streak analysis (max win/loss streaks), risk metrics (Max Drawdown, Avg Win/Loss ratio), and Long/Short comparison.
+📖 **How to Use Guide** — Built-in instructions so you can start logging trades immediately.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Features:**
+✅ Pre-loaded with 6 sample trades so you can see it in action
+✅ 50+ live formulas — P&L, Win Rate, R Multiple all calculate automatically
+✅ Works in any Google account — just click the template link
+✅ Supports US, HK, FX, and Crypto markets
+✅ Color-coded inputs (blue cells = your data)
+✅ Frozen header rows for easy scrolling
+✅ Navy + gold professional design
 
-📋 WHAT YOU GET
+**Who this is for:**
+Active traders who want to track their edge. Whether you day trade, swing trade, or invest long-term — this journal helps you find patterns in your trading that you'd otherwise miss.
 
-**Trade Log** — 20 fields per trade: entry/exit, stop loss, take profit, position size, mistakes, notes, and screenshot links. P&L, P&L%, R-Multiple, and Net P&L calculated automatically across 50 trade slots.
+**Price: $29** (Launch price, will increase to $39)
 
-**Dashboard** — Real-time performance overview: total trades, win rate, total P&L, avg hold days, avg win/loss, profit factor, and worst trade.
+**Tags:** trading journal, trade tracker, stock trading, forex trading, crypto trading, google sheets, spreadsheet template, trading analytics, performance dashboard, risk management, R multiple, profit factor, trading psychology
 
-**Analytics** — Cumulative P&L equity curve (10 trades), win/loss distribution, and monthly performance breakdown (Jan-Dec).
+## FAQ
+**Q: Do I need Excel or Google Sheets?**
+A: Google Sheets — it's free. Just click the template link and you get your own copy.
 
-**Setup Guide** — Get started in 2 minutes with step-by-step instructions.
+**Q: Is this a physical product?**
+A: No, it's a digital Google Sheets template. Instant delivery after purchase.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Q: Can I modify the template for my own use?**
+A: Yes, once you make a copy it's yours to customize however you want.
 
-🎯 WHY THIS IS DIFFERENT
+**Q: What markets does this support?**
+A: US stocks, HK stocks, FX pairs, and crypto. The template tracks them all.
 
-Most trading journals are built by people who've never placed a trade. This one is built by an active hedge fund trader who manages a real portfolio across multiple markets daily.
-
-• **R-Multiple tracking** — Measure trades in risk units, not just dollars. This is what separates pros from amateurs.
-• **Mistake column** — Because your biggest edge comes from eliminating behavioral errors.
-• **Monthly performance tracking** — See which months are your strongest and weakest.
-• **Multi-market support** — One journal for all your markets.
-• **250+ auto-calculating formulas** — Just enter the trade, let the spreadsheet do the math.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📊 SAMPLE METRICS (from included example data)
-
-• 5 sample trades across NVDA, Tencent, Tesla, Gold, and Moutai
-• Pre-formatted with realistic entry/exit levels
-• Dashboard already showing calculated metrics
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🚀 HOW TO USE
-
-1. Download the PDF delivery file after purchase
-2. Click the Google Sheets template link in the PDF
-3. Make a copy in your Google Drive (File → Make a Copy)
-4. Start logging your trades
-
-Works with: Google Sheets (free), Microsoft Excel, Apple Numbers
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-⭐ WHO THIS IS FOR
-
-• Active traders who want to track and improve their edge
-• Traders who trade multiple markets (stocks, FX, crypto, gold)
-• Anyone who wants data-driven trading decisions
-• Prop traders, retail traders, swing traders, day traders
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-❌ WHO THIS IS NOT FOR
-
-• Buy-and-hold investors (use a portfolio tracker instead)
-• People who don't want to log their trades
-• Anyone looking for automated trade import (this is manual journaling)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-💰 PRICING
-
-Launch price: $19 (first 50 buyers)
-Standard price: $29
-
-One payment. Lifetime access. Free updates.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📝 VERSION HISTORY
-
-v1.0 (May 2026) — Initial release
-
-TAGS:
-trading journal, stock trading, forex trading, trading template, trading spreadsheet, google sheets template, trading analytics, day trading, swing trading, portfolio tracker, R-multiple, profit factor, trading metrics, trader journal, hedge fund
-
-PRICING:
-- Name: Standard
-- Price: $29
-- Suggested price: $19 (launch special)
-- License: Personal use
-
-VARIANTS: None needed for v1
-
-CUSTOM FIELDS: None
-
-CALL TO ACTION:
-I want this!
-
-COVER IMAGE:
-Use thumbnail.png (1280x720) — dark navy + gold professional design
-
-FILES TO UPLOAD:
-1. Delivery_Instructions.pdf (the file buyers receive — contains the Google Sheets template link)
-2. thumbnail.png (cover image for the listing)
-
-WORKFLOW:
-- Gumroad handles payment, delivery, and receipts automatically
-- You upload the PDF, buyers get it instantly after purchase
-- Gumroad takes 10% + $0.30 per transaction (free tier)
-- Payouts to your bank account weekly
+**Q: What is R Multiple?**
+A: R Multiple normalizes your trades by risk — it shows how much you made relative to what you risked. A 2R trade means you won twice your risk amount. It's the best way to compare trades of different sizes.
